@@ -12,7 +12,7 @@ export const Container = styled.div`
   button {
     font-family: "Raleway", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
 
     color: white;
     opacity: 50%;

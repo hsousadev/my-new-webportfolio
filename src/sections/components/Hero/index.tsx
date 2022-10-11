@@ -1,12 +1,17 @@
+import useWindowSize from "../../../shared/hooks/useWindowSize";
+
 import TopBar from "./components/TopBar";
 import Highlights from "./components/Highlights";
 
 import { Container } from "./styles";
 
 const Hero = () => {
+  const windowSize = useWindowSize();
+  const isMobile = windowSize.windowWidth < 768;
+
   return (
     <Container>
-      <TopBar />
+      {!isMobile && <TopBar />}
       <Highlights />
     </Container>
   );
