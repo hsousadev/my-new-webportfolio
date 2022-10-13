@@ -5,6 +5,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-top: 100px;
 
   .left {
     display: flex;
@@ -41,8 +42,8 @@ export const Container = styled.div`
       gap: 16px;
 
       img {
-        cursor: pointer;
         transition: all 0.4s ease-in-out;
+        cursor: pointer;
 
         :hover {
           transition: all 0.4s ease-in-out;

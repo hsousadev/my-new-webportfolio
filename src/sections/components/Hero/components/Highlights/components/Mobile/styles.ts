@@ -11,9 +11,8 @@ export const Container = styled.div`
 
   img.avatar {
     transition: all 0.6s ease-in-out;
-    height: 308px;
+    height: 500px;
     margin-top: 40px;
-    margin-bottom: 32px;
     margin-left: 5%;
   }
 
@@ -102,6 +101,29 @@ export const Container = styled.div`
         svg {
           margin-top: -4px !important;
         }
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    img.avatar {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .texts {
+      .name-and-title {
+        h6 {
+          white-space: initial;
+        }
+      }
+
+      .buttons {
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
       }
     }
   }

@@ -8,6 +8,7 @@ export const Container = styled.div`
   padding: 6px 10px;
   margin: 0;
 
+  width: fit-content;
   height: 45px;
   background: rgba(123, 74, 226, 0.1);
   border-radius: 16px;

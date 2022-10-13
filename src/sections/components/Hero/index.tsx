@@ -7,7 +7,7 @@ import { Container } from "./styles";
 
 const Hero = () => {
   const windowSize = useWindowSize();
-  const isMobile = windowSize.windowWidth < 768;
+  const isMobile = windowSize.windowWidth <= 960;
 
   return (
     <Container>

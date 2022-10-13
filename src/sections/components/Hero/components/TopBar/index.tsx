@@ -6,9 +6,12 @@ import { Container } from "./styles";
 
 const TopBar = () => {
   return (
-    <Container>
-      <img src={Logo} alt="" />
-      <SectionsButton />
+    <Container
+    >
+      <div className="content">
+        <img src={Logo} alt="" />
+        <SectionsButton />
+      </div>
     </Container>
   );
 };

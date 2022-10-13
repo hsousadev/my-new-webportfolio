@@ -3,23 +3,37 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   padding-top: 40px;
+  width: 100%;
   max-width: 1640px;
 
-  width: 100%;
+  background-color: var(--DARK);
+  z-index: 10;
 
-  > img {
-    width: 32px;
-    height: 32px;
-  }
-
-  .social-medias {
+  .content {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 
-    gap: 16px;
+    width: 100%;
+    padding: 12px 24px;
+
+    background: rgba(123, 74, 226, 0.025);
+    border-radius: 16px;
+
+    > img {
+      width: 32px;
+      height: 32px;
+    }
+
+    .social-medias {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      gap: 16px;
+    }
   }
 `;
