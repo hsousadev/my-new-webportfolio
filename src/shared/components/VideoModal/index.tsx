@@ -2,15 +2,13 @@ import { X } from "phosphor-react";
 import { Container } from "./styles";
 
 interface VideoModalProps {
-  videoUrl: string;
-  setShowVideo: boolean;
+  videoLink: string;
+  setShowVideoModal: any;
 }
 
-const VideoModal = ({ videoUrl, setShowVideo }: VideoModalProps) => {
-
+const VideoModal = ({ videoLink, setShowVideoModal }: VideoModalProps) => {
   function handleClose() {
-    console.log("foi");
-    setShowVideo = false;
+    setShowVideoModal(false);
   }
 
   return (
@@ -23,9 +21,8 @@ const VideoModal = ({ videoUrl, setShowVideo }: VideoModalProps) => {
         <div className="iframe-container">
           <iframe
             title="video"
-            frameBorder="0"
             allowFullScreen
-            src={`${videoUrl}?autoplay=1`}
+            src={`${videoLink}?autoplay=1`}
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           />
         </div>

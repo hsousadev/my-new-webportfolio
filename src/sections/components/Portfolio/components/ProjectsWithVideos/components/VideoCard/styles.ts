@@ -82,6 +82,7 @@ export const Container = styled.div`
     }
 
     button {
+      border: none;
       font-family: "Raleway";
       font-style: normal;
       font-weight: 400;

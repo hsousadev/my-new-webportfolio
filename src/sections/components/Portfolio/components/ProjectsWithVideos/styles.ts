@@ -36,5 +36,38 @@ export const Container = styled.div`
     justify-content: space-between;
     width: 100%;
     gap: 54px;
+    overflow-x: scroll;
+    padding-bottom: 24px;
+    zoom: 90%;
+
+    /* width */
+    ::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: rgba(123, 74, 226, 0.1);
+      border-radius: 16px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: rgba(123, 74, 226, 0.5);
+      border-radius: 16px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(123, 74, 226, 0.5);
+    }
+
+    @media (max-width: 768px) {
+      gap: 16px;
+      padding-right: 64px;
+    }
+    @media (max-width: 500px) {
+      zoom: 70%
+    }
   }
 `;

@@ -5,7 +5,7 @@ export const Container = styled.div`
   left: 0;
   width: 100%;
   z-index: 10;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   align-items: center;
   justify-content: center;
@@ -14,12 +14,22 @@ export const Container = styled.div`
   display: flex;
 
   .video-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     max-width: 1338px;
     left: 0;
     align-items: flex-end;
     flex-direction: column;
+
+    button {
+      transition: all 0.2s ease-in-out;
+      border: none;
+
+      :hover {
+        transition: all 0.2s ease-in-out;
+        scale: 120%;
+      }
+    }
 
     img {
       transition: all ease-in-out 0.2s;
@@ -39,6 +49,7 @@ export const Container = styled.div`
     overflow: hidden;
     position: relative;
     padding-top: 56.25%;
+    align-self: center;
   }
 
   iframe {
@@ -52,8 +63,10 @@ export const Container = styled.div`
     border-radius: 13px;
   }
 
-  @media screen and (max-width: 1023px) {
-    padding: 15%;
+  @media (max-width: 768px) {
+    .video-container {
+      width: 95%;
+    }
   }
 
   @media screen and (max-width: 540px) {
