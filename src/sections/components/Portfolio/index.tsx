@@ -13,6 +13,7 @@ import designIcon from "../../../shared/assets/icons/design-icon.svg";
 import codeIcon from "../../../shared/assets/icons/code-icon.svg";
 
 import { Container } from "./styles";
+import ProjectsWithVideos from "./components/ProjectsWithVideos";
 
 const Portfolio = () => {
   const windowSize = useWindowSize();
@@ -71,6 +72,8 @@ const Portfolio = () => {
           </div>
         )}
       </div>
+
+      <ProjectsWithVideos />
     </Container>
   );
 };

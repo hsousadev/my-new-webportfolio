@@ -15,5 +15,6 @@ export const Container = styled.div`
     appearance: none;
     outline: none;
     background: transparent;
+    border: none;
   }
 `;

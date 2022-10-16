@@ -30,7 +30,7 @@ export const Container = styled.div`
         font-family: "Raleway";
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         color: #ffffff;
         opacity: 50%;
       }

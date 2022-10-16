@@ -16,7 +16,7 @@ export const Container = styled.div`
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
 
   color: var(--PURPLE);
 

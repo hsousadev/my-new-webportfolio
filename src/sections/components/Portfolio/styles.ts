@@ -78,7 +78,7 @@ export const Container = styled.div`
       font-family: "Raleway";
       font-style: normal;
       font-weight: 600;
-      font-size: 20px;
+      font-size: 18px;
       color: rgba(123, 74, 226, 0.5);
     }
   }
