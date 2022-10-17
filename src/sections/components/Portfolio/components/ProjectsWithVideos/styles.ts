@@ -39,35 +39,58 @@ export const Container = styled.div`
     overflow-x: scroll;
     padding-bottom: 24px;
     zoom: 90%;
+  }
 
-    /* width */
-    ::-webkit-scrollbar {
-      height: 8px;
+  @media (min-width: 768px) {
+    .video-cards {
+      /* width */
+      ::-webkit-scrollbar {
+        height: 8px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: rgba(123, 74, 226, 0.1);
+        border-radius: 16px;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgba(123, 74, 226, 0.5);
+        border-radius: 16px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(123, 74, 226, 0.5);
+      }
     }
+  }
 
-    /* Track */
-    ::-webkit-scrollbar-track {
-      background: rgba(123, 74, 226, 0.1);
-      border-radius: 16px;
-    }
-
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: rgba(123, 74, 226, 0.5);
-      border-radius: 16px;
-    }
-
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background: rgba(123, 74, 226, 0.5);
-    }
-
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
+    .video-cards {
       gap: 16px;
       padding-right: 64px;
     }
-    @media (max-width: 500px) {
-      zoom: 70%
+
+    .header {
+      gap: 8px !important;
+
+      h4 {
+        margin: 0;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .video-cards {
+      zoom: 70%;
+    }
+  }
+
+  @media (max-width: 355px) {
+    .video-cards {
+      zoom: 60%;
     }
   }
 `;

@@ -47,28 +47,6 @@ export const Container = styled.div`
     margin-bottom: 48px;
     gap: 48px;
     padding-bottom: 24px;
-
-    /* width */
-    ::-webkit-scrollbar {
-      height: 8px;
-    }
-
-    /* Track */
-    ::-webkit-scrollbar-track {
-      background: rgba(123, 74, 226, 0.1);
-      border-radius: 16px;
-    }
-
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-      background: rgba(123, 74, 226, 0.5);
-      border-radius: 16px;
-    }
-
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-      background: rgba(123, 74, 226, 0.5);
-    }
   }
 
   .see-more-projects {

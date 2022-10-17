@@ -12,7 +12,7 @@ export const Container = styled.div`
 
   /* width */
   ::-webkit-scrollbar {
-    width: 5px;
+    width: 8px;
   }
 
   /* Track */
@@ -24,13 +24,12 @@ export const Container = styled.div`
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: rgba(123, 74, 226, 0.5);
-
     border-radius: 16px;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(123, 74, 226, 0.5);
+    background: rgba(123, 74, 226, 0.3);
   }
 
   button {

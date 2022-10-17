@@ -19,6 +19,7 @@ const Portfolio = () => {
   const windowSize = useWindowSize();
 
   const [category, setCategory] = useState("web");
+
   return (
     <Container>
       <TagSection text="🔗 Portfólio" />

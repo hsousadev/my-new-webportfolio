@@ -66,7 +66,8 @@ export const Container = styled.div`
 
   @media (max-width: 960px) {
     .cards {
-      zoom: 75%;
+      width: 100%;
+      flex-wrap: wrap;
     }
   }
 
