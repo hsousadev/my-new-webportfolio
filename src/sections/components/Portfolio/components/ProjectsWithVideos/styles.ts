@@ -45,7 +45,7 @@ export const Container = styled.div`
     .video-cards {
       /* width */
       ::-webkit-scrollbar {
-        height: 8px;
+        height: 10px;
       }
 
       /* Track */
@@ -68,6 +68,8 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
+    margin-top: 80px;
+
     .video-cards {
       gap: 16px;
       padding-right: 64px;

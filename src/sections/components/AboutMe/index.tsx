@@ -16,13 +16,9 @@ const AboutMe = () => {
       <div className="description">
         <TagSection text="🧐 Sobre mim" />
 
-        {isMobile ? (
-          <h1>Washington Henrique</h1>
-        ) : (
-          <h1>
-            Washington Henrique <br /> Fernandes de Sousa
-          </h1>
-        )}
+        <h1>
+          Washington Henrique <br /> Fernandes de Sousa
+        </h1>
 
         <p>
           👋 Hello world, pode me chamar apenas de Henrique. Prazer! <br />

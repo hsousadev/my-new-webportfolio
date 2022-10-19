@@ -89,7 +89,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 1440px) {
-    zoom: 75%;
+    zoom: 80%;
   }
 
   @media (max-width: 1280px) {
@@ -108,6 +108,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     zoom: 100%;
+    margin-bottom: 80px;
 
     .header {
       margin-bottom: 32px;

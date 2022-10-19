@@ -43,16 +43,16 @@ export const Container = styled.div`
     zoom: 90%;
   }
 
-  @media (max-width: 1024px) {
-    .techs {
-      overflow-x: scroll;
-      justify-content: flex-start;
-      padding-right: 24px;
-    }
+  @media (max-width: 1440px) {
+    zoom: 80%;
+  }
+
+  @media (max-width: 798px) {
+    zoom: 100%;
+    align-items: flex-start;
   }
 
   @media (max-width: 768px) {
-    align-items: flex-start;
     h1 {
       font-size: 24px;
       margin: 16px 0 32px 0;
@@ -61,6 +61,7 @@ export const Container = styled.div`
 
     h3 {
       text-align: left;
+      font-size: 14px;
     }
 
     .techs {
@@ -68,9 +69,17 @@ export const Container = styled.div`
     }
   }
 
+  @media (max-width: 670px) {
+    .techs {
+      overflow-x: scroll;
+      justify-content: flex-start;
+      padding-right: 24px;
+    }
+  }
+
   @media (max-width: 500px) {
     .techs {
-      zoom: 70%;
+      zoom: 60%;
     }
   }
 `;

@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 import Careers from "./components/Careers";
+import Recommendation from "./components/Recommendation";
 
 import { Container } from "./styles";
 
@@ -16,6 +17,7 @@ const Sections = () => {
       <Portfolio />
       <Skills />
       <Careers />
+      <Recommendation />
     </Container>
   );
 };

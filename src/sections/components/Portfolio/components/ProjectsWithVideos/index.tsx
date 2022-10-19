@@ -1,12 +1,23 @@
+import useWindowSize from "../../../../../shared/hooks/useWindowSize";
 import { Container } from "./styles";
 
 import VideoCard from "./components/VideoCard";
 
 const ProjectsWithVideos = () => {
+  const windowSize = useWindowSize();
+  const isMobile = windowSize.windowWidth <= 768;
+
   return (
     <Container>
       <div className="header">
-        <h1>Projetos em vídeos</h1>
+        {isMobile ? (
+          <h1>
+            Projetos <br /> em vídeos
+          </h1>
+        ) : (
+          <h1>Projetos em vídeos</h1>
+        )}
+
         <h4>Sempre é bom saber um pouquinho de edição</h4>
       </div>
       <div className="video-cards">

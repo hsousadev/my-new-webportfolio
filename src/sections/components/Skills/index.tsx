@@ -1,3 +1,5 @@
+import useWindowSize from "../../../shared/hooks/useWindowSize";
+
 import Tag from "../../../shared/components/Tag";
 
 import cssIcon from "../../../shared/assets/icons/css-icon.svg";
@@ -25,10 +27,20 @@ import vueIcon from "../../../shared/assets/icons/vue-icon.svg";
 import { Container } from "./styles";
 
 const Skills = () => {
+  const windowSize = useWindowSize();
+  const isMobile = windowSize.windowWidth <= 768;
+
   return (
     <Container>
       <Tag text="🧑‍💻 Skills" />
-      <h1>Tecnologias e habilidades</h1>
+      {isMobile ? (
+        <h1>
+          Tecnologias <br /> e habilidades
+        </h1>
+      ) : (
+        <h1>Tecnologias e habilidades</h1>
+      )}
+
       <h3>Techs que uso no dia a dia</h3>
       <div className="techs">
         <img src={reactIcon} alt="" />

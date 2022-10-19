@@ -36,6 +36,6 @@ export const Container = styled.div<ContainerProps>`
         `};
 
   @media (max-width: 768px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 `;
