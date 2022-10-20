@@ -90,6 +90,18 @@ const Careers = () => {
                 yearsOfExperience=""
                 startAndEnd="Janeiro/2015 · Dezembro/2017"
               />
+              <CardInfo
+                title="Informática Avançada"
+                description="Em novembro de 2017 me certifiquei em informática avançada pelo Instituto Educacional Iraci Veiga"
+                yearsOfExperience="8 meses"
+                startAndEnd="Fevereiro/2017 · Novembro/2017"
+              />
+              <CardInfo
+                title="Informática Profissionalizante"
+                description="Ao final de 2016 me certifiquei em informática profissionalizante pelo Instituto Educacional Iraci Veiga"
+                yearsOfExperience="1 ano 3 meses"
+                startAndEnd="Outubro/2015 · Dezembro/2016"
+              />
             </div>
           </div>
         </div>

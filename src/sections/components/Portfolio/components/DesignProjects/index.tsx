@@ -32,11 +32,11 @@ const DesignProjects = () => {
         redirectUrl="https://www.figma.com/community/file/1162160606182370806"
       />
       <WorkCard
-        title="VisGeo"
-        description="Criação de logo para VisGeo, app web de dados georreferenciados."
-        tags={["Design", "Logo"]}
-        bannerUrl="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/0a291a115184781.Y3JvcCwxMzgwLDEwODAsMjkzLDA.png"
-        redirectUrl="https://www.behance.net/gallery/115184781/VisGeo"
+        title="Re-design site Ensinio"
+        description="Re-design da main page do site feito para a Ensinio."
+        tags={["UX · UI Design", "Re-design"]}
+        bannerUrl="https://s3-alpha.figma.com/hub/file/2494220563/03033aaa-f74a-4478-bf73-9f18dae1e4cd-cover.png"
+        redirectUrl="https://www.figma.com/community/file/1164776880594444677"
       />
       <WorkCard
         title="Web Portfólio · Matheus Campos"
@@ -55,7 +55,7 @@ const DesignProjects = () => {
       <WorkCard
         title="Instagram Dark Mode"
         description="Recriação da rede social na versão web com uma releitura do dark mode e adicional de elementos novos."
-        tags={["UX · UI Design"]}
+        tags={["UX · UI Design", "Re-design"]}
         bannerUrl="https://s3-alpha.figma.com/hub/file/2424161642/ff58a337-4773-43ab-82d8-77b26214c837-cover.png"
         redirectUrl="https://www.figma.com/community/file/1162155986654328303"
       />

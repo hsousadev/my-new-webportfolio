@@ -8,7 +8,7 @@ export const Container = styled.div`
 
   width: 100%;
   max-width: 1645px;
-  margin-bottom: 140px;
+  margin: 140px 0px;
 
   h1 {
     font-family: "Raleway";
@@ -107,6 +107,7 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     zoom: 100%;
     align-items: flex-start;
+    margin: 0px 0px 80px 0;
 
     > h1 {
       font-size: 24px;

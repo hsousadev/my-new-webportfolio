@@ -13,6 +13,9 @@ export const Container = styled.div`
   border-radius: 16px;
   padding: 30px;
 
+  width: 442px;
+  height: 346px;
+
   :hover {
     transition: all 0.5s ease-in-out;
     background: rgba(123, 74, 226, 0.1);

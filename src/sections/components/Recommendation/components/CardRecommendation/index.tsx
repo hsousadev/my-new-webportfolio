@@ -1,3 +1,5 @@
+import useWindowSize from "../../../../../shared/hooks/useWindowSize";
+
 import { Quotes } from "phosphor-react";
 import { Container } from "./styles";
 
@@ -14,10 +16,18 @@ const CardRecommendation = ({
   authorName,
   position,
 }: CardRecommendationProps) => {
+  const windowSize = useWindowSize();
+  const isMobile = windowSize.windowWidth <= 768;
+
   return (
     <Container>
       <div className="comment">
-        <Quotes weight="thin" size={32} color="var(--PURPLE)" />
+        {isMobile ? (
+          <Quotes weight="thin" size={24} color="var(--PURPLE)" />
+        ) : (
+          <Quotes weight="thin" size={32} color="var(--PURPLE)" />
+        )}
+
         <p>{comment}</p>
       </div>
       <div className="author-info">

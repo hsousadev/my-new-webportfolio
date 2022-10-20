@@ -39,35 +39,93 @@ export const Container = styled.div`
     overflow-x: scroll;
     padding-bottom: 24px;
     zoom: 90%;
+
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 16px;
+      padding-bottom: 24px;
+    }
   }
 
-  @media (min-width: 768px) {
-    .video-cards {
-      /* width */
-      ::-webkit-scrollbar {
-        height: 10px;
-      }
+  .alice-carousel {
+    zoom: 90%;
+    cursor: pointer;
 
-      /* Track */
-      ::-webkit-scrollbar-track {
-        background: rgba(123, 74, 226, 0.1);
-        border-radius: 16px;
-      }
+    .alice-carousel__wrapper {
+      overflow: visible;
+    }
+  }
 
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: rgba(123, 74, 226, 0.5);
-        border-radius: 16px;
-      }
+  .alice-carousel__stage {
+    transition: all 0.6s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 64px;
+  }
 
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-        background: rgba(123, 74, 226, 0.5);
-      }
+  .alice-carousel__prev-btn,
+  .alice-carousel__next-btn {
+    width: auto;
+  }
+
+  .alice-carousel__prev-btn {
+    position: absolute;
+    top: -40%;
+    left: 90%;
+  }
+
+  .alice-carousel__next-btn {
+    position: absolute;
+    top: -40%;
+    left: 95%;
+  }
+
+  .alice-carousel__dots-item:not(.__custom):hover,
+  .alice-carousel__dots-item:not(.__custom).__active {
+    background-color: var(--PURPLE);
+  }
+
+  @media (max-width: 1440px) {
+    /* zoom: 80%; */
+  }
+
+  @media (max-width: 1366px) {
+    .alice-carousel__stage {
+      gap: 56px;
+    }
+
+    .alice-carousel__next-btn {
+      left: 95%;
+    }
+
+    .alice-carousel__prev-btn {
+      left: 91%;
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .alice-carousel__next-btn {
+      left: 96%;
+    }
+  }
+
+  @media (max-width: 1090px) {
+    .alice-carousel__next-btn {
+      left: 98%;
+    }
+  }
+
+  @media (max-width: 830px) {
+    .alice-carousel__next-btn {
+      left: 100%;
     }
   }
 
   @media (max-width: 768px) {
+    zoom: 100%;
     margin-top: 80px;
 
     .video-cards {
