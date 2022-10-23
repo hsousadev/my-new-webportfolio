@@ -10,7 +10,7 @@ const Hero = () => {
   const isMobile = windowSize.windowWidth <= 960;
 
   return (
-    <Container>
+    <Container id="hero">
       {!isMobile && <TopBar />}
       <Highlights />
     </Container>

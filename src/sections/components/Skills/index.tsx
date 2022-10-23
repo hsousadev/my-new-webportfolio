@@ -1,6 +1,6 @@
 import useWindowSize from "../../../shared/hooks/useWindowSize";
 
-import Tag from "../../../shared/components/Tag";
+import TagSection from "../../../shared/components/TagSection";
 
 import cssIcon from "../../../shared/assets/icons/css-icon.svg";
 import figmaIcon from "../../../shared/assets/icons/figma-icon.svg";
@@ -31,8 +31,8 @@ const Skills = () => {
   const isMobile = windowSize.windowWidth <= 768;
 
   return (
-    <Container>
-      <Tag text="🧑‍💻 Skills" />
+    <Container id="skills">
+      <TagSection text="🧑‍💻 Skills" />
       {isMobile ? (
         <h1>
           Tecnologias <br /> e habilidades

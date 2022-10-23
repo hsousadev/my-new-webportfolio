@@ -1,16 +1,11 @@
-import useWindowSize from "../../../shared/hooks/useWindowSize";
-
 import TagSection from "../../../shared/components/TagSection";
 import profilePic from "../../../shared/assets/illustrations/profile-pic.png";
 
 import { Container } from "./styles";
 
 const AboutMe = () => {
-  const windowSize = useWindowSize();
-  const isMobile = windowSize.windowWidth <= 960;
-
   return (
-    <Container>
+    <Container id="aboutMe">
       <img src={profilePic} alt="" />
 
       <div className="description">

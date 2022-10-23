@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Careers from "./components/Careers";
 import Recommendation from "./components/Recommendation";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 import { Container } from "./styles";
 
@@ -20,6 +21,7 @@ const Sections = () => {
       <Careers />
       <Recommendation />
       <Contacts />
+      <Footer />
     </Container>
   );
 };

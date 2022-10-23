@@ -7,7 +7,9 @@ import heroAvatar from "../../../../../../../shared/assets/illustrations/hero-av
 import Linkedin from "../../../../../../../shared/assets/icons/linkedin-white-circle.svg";
 import Github from "../../../../../../../shared/assets/icons/github-white-circle.svg";
 import Behance from "../../../../../../../shared/assets/icons/behance-white-circle.svg";
-import Resume from "../../../../../../../shared/docs/curriculo-henrique-2022.pdf";
+import Figma from "../../../../../../../shared/assets/icons/figma-white-circle.svg";
+
+import Resume from "../../../../../../../shared/docs/resume-henrique-sousa.pdf";
 
 import { Container } from "./styles";
 
@@ -39,6 +41,13 @@ const Desktop = () => {
             onClick={() => window.open("https://github.com/justhenrique")}
           />
           <img
+            src={Figma}
+            alt=""
+            onClick={() =>
+              window.open("https://www.figma.com/@henriquedesousa")
+            }
+          />
+          <img
             src={Behance}
             alt=""
             onClick={() =>
@@ -51,7 +60,7 @@ const Desktop = () => {
       <img src={heroAvatar} alt="" />
 
       <div className="right">
-        <a href={Resume} download="curriculo-henrique-2022.pdf" target="_blank">
+        <a href={Resume} download="resume-henrique-sousa.pdf" target="_blank">
           Baixar CV <ArrowLineDown size={24} color="rgba(123, 74, 226, 0.5)" />
         </a>
 

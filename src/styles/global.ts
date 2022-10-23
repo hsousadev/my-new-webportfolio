@@ -9,6 +9,10 @@ export const Container = styled.div`
   height: 100vh;
 
   overflow-x: hidden;
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
 
   /* width */
   ::-webkit-scrollbar {

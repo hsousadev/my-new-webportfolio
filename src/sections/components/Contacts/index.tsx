@@ -1,13 +1,35 @@
+import { useState } from "react";
+import smoothScroll from "../../../shared/utils/smoothScroll";
+
+import copy from "copy-to-clipboard";
+
+import useWindowSize from "../../../shared/hooks/useWindowSize";
+
 import { ArrowUp, CopySimple, PaperPlaneTilt } from "phosphor-react";
 import LetsTalkButton from "../../../shared/components/LetsTalkButton";
-import Tag from "../../../shared/components/Tag";
+import TagSection from "../../../shared/components/TagSection";
+
 import { Container } from "./styles";
 
 const Contacts = () => {
+  const windowSize = useWindowSize();
+  const isMobile = windowSize.windowWidth <= 768;
+
+  const [copySuccess, setCopySuccess] = useState(false);
+
+  function copyToClipboard() {
+    copy("henriquesousa.dev@gmail.com");
+    setCopySuccess(true);
+
+    setTimeout(() => {
+      setCopySuccess(false);
+    }, 4000);
+  }
+
   return (
-    <Container>
+    <Container id="contacts">
       <div className="tag-and-title">
-        <Tag text="📬 Contatos" />
+        <TagSection text="📬 Contatos" />
         <h1>Vamos conversar!</h1>
       </div>
 
@@ -16,12 +38,35 @@ const Contacts = () => {
         <div className="email">
           <PaperPlaneTilt weight="thin" size={40} color="#412C7C" />
           <h4>E-mail:</h4>
-          <h5>henriquesousa.dev@gmail.com</h5>
-          <CopySimple weight="thin" size={32} color="#412C7C" />
+          {!isMobile ? (
+            <>
+              <h5 id="emailToCopy">henriquesousa.dev@gmail.com</h5>
+              <CopySimple
+                onClick={copyToClipboard}
+                weight="thin"
+                size={32}
+                color="#412C7C"
+              />
+            </>
+          ) : (
+            <>
+              <div className="email-and-copy">
+                <h5 id="emailToCopy">henriquesousa.dev@gmail.com</h5>
+                <CopySimple
+                  onClick={copyToClipboard}
+                  weight="thin"
+                  size={32}
+                  color="#412C7C"
+                />
+              </div>
+            </>
+          )}
+
+          {copySuccess && <h4>✅ Texto copiado para o clipboard!</h4>}
         </div>
       </div>
 
-      <h3>
+      <h3 onClick={() => smoothScroll("hero")}>
         Voltar ao topo <ArrowUp />
       </h3>
     </Container>

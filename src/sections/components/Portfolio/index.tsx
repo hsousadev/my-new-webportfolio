@@ -22,7 +22,7 @@ const Portfolio = () => {
 
   return (
     <Container>
-      <TagSection text="🔗 Portfólio" />
+      <TagSection text="🔗 Portfólio" id="portfolio" />
 
       <div className="header">
         {windowSize.windowWidth <= 768 ? (

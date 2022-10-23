@@ -43,6 +43,16 @@ export const Container = styled.div`
       justify-content: center;
       flex-direction: column;
 
+      svg {
+        cursor: pointer;
+        transition: all 0.6s ease-in-out;
+
+        :hover {
+          transition: all 0.6s ease-in-out;
+          opacity: 50%;
+        }
+      }
+
       h4 {
         font-family: "Raleway";
         font-style: normal;
@@ -66,6 +76,8 @@ export const Container = styled.div`
   }
 
   h3 {
+    cursor: pointer;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,5 +90,46 @@ export const Container = styled.div`
     color: rgba(123, 74, 226, 0.5);
 
     gap: 8px;
+  }
+
+  @media (max-width: 1440px) {
+    zoom: 80%;
+  }
+
+  @media (max-width: 768px) {
+    zoom: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    gap: 24px;
+
+    .tag-and-title {
+      align-items: flex-start;
+
+      h1 {
+        font-size: 24px;
+        line-height: 24px;
+      }
+    }
+
+    .wpp-and-email {
+      align-items: flex-start;
+      flex-direction: column;
+
+      .email {
+        align-items: flex-start;
+
+        .email-and-copy {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          gap: 16px;
+          margin-bottom: 16px;
+        }
+      }
+    }
   }
 `;

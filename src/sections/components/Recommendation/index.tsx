@@ -3,7 +3,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 import useWindowSize from "../../../shared/hooks/useWindowSize";
 
-import Tag from "../../../shared/components/Tag";
+import TagSection from "../../../shared/components/TagSection";
 import CardRecommendation from "./components/CardRecommendation";
 import NextButton from "../../../shared/components/NextButton";
 import BackButton from "../../../shared/components/BackButton";
@@ -54,9 +54,9 @@ const Recommendation = () => {
   ];
 
   return (
-    <Container>
+    <Container id="recommendations">
       <div className="header">
-        <Tag text="💬 Recomendações" />
+        <TagSection text="💬 Recomendações" />
 
         {isMobile ? (
           <h1>

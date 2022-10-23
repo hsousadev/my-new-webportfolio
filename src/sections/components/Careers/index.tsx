@@ -1,6 +1,6 @@
 import useWindowSize from "../../../shared/hooks/useWindowSize";
 
-import Tag from "../../../shared/components/Tag";
+import TagSection from "../../../shared/components/TagSection";
 import CardInfo from "./components/CardInfo";
 
 import { Container } from "./styles";
@@ -11,7 +11,7 @@ const Careers = () => {
 
   return (
     <Container>
-      <Tag text="💼 Carreira" />
+      <TagSection text="💼 Carreira" />
 
       {isMobile ? (
         <h1>
@@ -23,7 +23,7 @@ const Careers = () => {
 
       <div className="columns">
         <div className="column">
-          <h1>Área profissional</h1>
+          <h1 id="career">Área profissional</h1>
           <h3>2016 · Atualmente</h3>
           <div className="content">
             <div className="cards">
