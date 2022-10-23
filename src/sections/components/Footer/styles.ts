@@ -7,7 +7,9 @@ export const Container = styled.div`
 
   border-top: 1px solid rgba(123, 74, 226, 0.1);
 
-  width: 100vw;
+  width: 100%;
+  max-width: 1640px;
+
   height: 60px;
   padding: 24px;
 

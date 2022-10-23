@@ -23,7 +23,7 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     font-size: 14px;
     margin: 0;
-    height: 100%;
+    height: auto;
     border-radius: 8px;
   }
 `;
