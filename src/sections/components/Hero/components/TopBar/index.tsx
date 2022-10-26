@@ -1,4 +1,5 @@
 import Logo from "../../../../../shared/assets/icons/logo.svg";
+
 import SectionsButton from "./components/SectionsButton";
 
 import { Container } from "./styles";

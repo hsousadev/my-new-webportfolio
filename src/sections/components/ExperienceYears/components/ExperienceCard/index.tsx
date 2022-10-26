@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import { Container } from "./styles";
 
 interface ExperienceCardProps {
@@ -10,8 +11,12 @@ const ExperienceCard = ({ img, yearsDesc, area }: ExperienceCardProps) => {
   return (
     <Container area={area}>
       <img src={img} alt="" />
-      <h5>{yearsDesc}</h5>
-      <h1>{area}</h1>
+      <h5>
+        <FormattedMessage id={yearsDesc} />
+      </h5>
+      <h1>
+        <FormattedMessage id={area} />
+      </h1>
     </Container>
   );
 };

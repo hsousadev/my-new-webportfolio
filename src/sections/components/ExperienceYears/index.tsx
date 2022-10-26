@@ -7,6 +7,7 @@ import designIcon from "../../../shared/assets/icons/design-icon.svg";
 import projectsIcon from "../../../shared/assets/icons/projects-icon.svg";
 
 import { Container } from "./styles";
+import { FormattedMessage } from "react-intl";
 
 const ExperienceYears = () => {
   const windowSize = useWindowSize();
@@ -19,35 +20,35 @@ const ExperienceYears = () => {
           <>
             <ExperienceCard
               img={codeIcon}
-              yearsDesc="3 anos como"
-              area="Programador"
+              yearsDesc="3-years-as-a"
+              area="developer"
             />
             <ExperienceCard
               img={designIcon}
-              yearsDesc="4 anos como"
+              yearsDesc="4-years-as-a"
               area="Designer"
             />
             <ExperienceCard
               img={projectsIcon}
-              yearsDesc="7 anos de"
-              area="Trabalhos"
+              yearsDesc="7-years-of"
+              area="work"
             />
           </>
         ) : (
           <>
             <ExperienceCard
               img={codeIcon}
-              yearsDesc="3 anos como"
-              area="Programador"
+              yearsDesc="3-years-as-a"
+              area="developer"
             />
             <ExperienceCard
               img={projectsIcon}
-              yearsDesc="7 anos de"
-              area="Trabalhos"
+              yearsDesc="7-years-of"
+              area="work"
             />
             <ExperienceCard
               img={designIcon}
-              yearsDesc="4 anos como"
+              yearsDesc="4-years-as-a"
               area="Designer"
             />
           </>
@@ -57,15 +58,23 @@ const ExperienceYears = () => {
       {!isMobile && (
         <div className="descriptions">
           <div>
-            <h5>Desenvolvedor</h5>
+            <h5>
+              <FormattedMessage id="developer" />
+            </h5>
             <h1>Front-end</h1>
           </div>
           <div>
-            <h5>Dezenas de projetos e</h5>
-            <h1>Experiências</h1>
+            <h5>
+              <FormattedMessage id="dozens-of-projects-and" />
+            </h5>
+            <h1>
+              <FormattedMessage id="experiences" />
+            </h1>
           </div>
           <div>
-            <h5>Designer freelancer e</h5>
+            <h5>
+              <FormattedMessage id="freelance-designer-and" />
+            </h5>
             <h1>UI · UX</h1>
           </div>
         </div>

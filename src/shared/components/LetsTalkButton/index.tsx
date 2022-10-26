@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import { WhatsappLogo } from "phosphor-react";
 
 import { Container } from "./styles";
@@ -10,7 +11,9 @@ const LetsTalkButton = () => {
       }
     >
       <WhatsappLogo size={24} weight="thin" color="rgba(123, 74, 226, 0.5)" />
-      <h1>Vamos conversar!</h1>
+      <h1>
+        <FormattedMessage id="lets-talk" />
+      </h1>
     </Container>
   );
 };

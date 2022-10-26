@@ -1,3 +1,5 @@
+import { FormattedMessage } from "react-intl";
+
 import TagSection from "../../../shared/components/TagSection";
 import profilePic from "../../../shared/assets/illustrations/profile-pic.png";
 
@@ -9,23 +11,21 @@ const AboutMe = () => {
       <img src={profilePic} alt="" />
 
       <div className="description">
-        <TagSection text="🧐 Sobre mim" />
+        <TagSection text="about-me-emoji" />
 
         <h1>
           Washington Henrique <br /> Fernandes de Sousa
         </h1>
 
         <p>
-          👋 Hello world, pode me chamar apenas de Henrique. Prazer! <br />
+          👋 Hello world,{" "}
+          <FormattedMessage id="you-can-call-me-henrique-pleasure" /> <br />
           <br />
-          👨‍💻 Há mais de 2 anos desenvolvendo e programando interfaces com
-          JavaScript, React JS e Typescript. <br />
-          🎓 Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São
-          José dos Campos. <br />
-          💡 Interesses em desenvolvimento Front-end com React, React Native,
-          VueJS e UX/UI Design. <br />
+          👨‍💻 <FormattedMessage id="for-over-2-years-developing" /> <br />
+          🎓 <FormattedMessage id="graduated-in-ads" /> <br />
+          💡 <FormattedMessage id="interests-in-front-end" /> <br />
           <br />
-          🚀 Tentando ser um pouquinho melhor do que ontem todos dias.
+          🚀 <FormattedMessage id="trying-to-be-a-little-better" />
         </p>
       </div>
     </Container>

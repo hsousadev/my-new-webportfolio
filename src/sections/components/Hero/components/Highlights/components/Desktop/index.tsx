@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import { ArrowLineDown } from "phosphor-react";
 
 import TagSection from "../../../../../../../shared/components/TagSection";
@@ -17,7 +18,7 @@ const Desktop = () => {
   return (
     <Container>
       <div className="left">
-        <TagSection text="👋 Saudações!" />
+        <TagSection text="greetings" />
 
         <div className="name-and-title">
           <h1>
@@ -61,7 +62,8 @@ const Desktop = () => {
 
       <div className="right">
         <a href={Resume} download="resume-henrique-sousa.pdf" target="_blank">
-          Baixar CV <ArrowLineDown size={24} color="rgba(123, 74, 226, 0.5)" />
+          <FormattedMessage id="download" /> CV
+          <ArrowLineDown size={24} color="rgba(123, 74, 226, 0.5)" />
         </a>
 
         <LetsTalkButton />

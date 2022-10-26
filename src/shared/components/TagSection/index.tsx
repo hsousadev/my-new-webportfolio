@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import { Container } from "./styles";
 
 interface TagSectionProps {
@@ -6,7 +7,11 @@ interface TagSectionProps {
 }
 
 const TagSection = ({ text, id }: TagSectionProps) => {
-  return <Container id={id}>{text}</Container>;
+  return (
+    <Container id={id}>
+      <FormattedMessage id={text} />
+    </Container>
+  );
 };
 
 export default TagSection;

@@ -11,6 +11,7 @@ import Resume from "../../../../../../../shared/docs/resume-henrique-sousa.pdf";
 import { Container } from "./styles";
 import TagSection from "../../../../../../../shared/components/TagSection";
 import LetsTalkButton from "../../../../../../../shared/components/LetsTalkButton";
+import { FormattedMessage } from "react-intl";
 
 const Mobile = () => {
   return (
@@ -56,7 +57,7 @@ const Mobile = () => {
 
         <div className="buttons">
           <a href={Resume} download="resume-henrique-sousa.pdf" target="_blank">
-            Baixar CV{" "}
+            <FormattedMessage id="download" /> CV{" "}
             <ArrowLineDown size={24} color="rgba(123, 74, 226, 0.5)" />
           </a>
 
