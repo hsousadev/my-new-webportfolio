@@ -5,14 +5,14 @@ const DesignProjects = () => {
     <>
       <WorkCard
         title="Biplan"
-        description="Uma plataforma para controle de produção e qualidade de produtos para pequenas empresas."
+        description="a-platform-for-production-control"
         tags={["Design", "Identidade Visual"]}
         bannerUrl="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/917280115177581.Y3JvcCwxMzgwLDEwODAsMjU2LDA.png"
         redirectUrl="https://github.com/justhenrique/esports-nlw-rocketseat"
       />
       <WorkCard
         title="CarsOn"
-        description="Experiência e interfaces de usuário para CarsOn. App web de vendas e compras de automoveis."
+        description="experience-and-user-interfaces-for-carson"
         tags={["UX · UI Design"]}
         bannerUrl="https://s3-alpha.figma.com/hub/file/1925447461/b574f42b-f4dd-4b5f-8e3e-33218867b443-cover.png"
         redirectUrl="https://www.figma.com/community/file/1162159871260028405"

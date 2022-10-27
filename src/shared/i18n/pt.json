@@ -23,5 +23,20 @@
   "for-over-2-years-developing": "Há mais de 2 anos desenvolvendo e programando interfaces com JavaScript, ReactJS e Typescript.",
   "graduated-in-ads": "Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos.",
   "interests-in-front-end": "Interesses em desenvolvimento Front-end com React JS, React Native, Vue JS e UX/UI Design.",
-  "trying-to-be-a-little-better": "Tentando ser um pouquinho melhor do que ontem todos dias."
+  "trying-to-be-a-little-better": "Tentando ser um pouquinho melhor do que ontem todos dias.",
+  "works": "Trabalhos",
+  "and-projects": "e projetos",
+  "see-more-projects-on-github": "Veja mais projetos no Github",
+  "see-more-projects-on-behance": "Veja mais projetos na Behance",
+  "see-more-projects-on-figma": "Veja mais projetos no Figma",
+  "nlw-04-rocketseat": "App web da NLW #04 Rocketseat. Plataforma de Pomodoro com exercícios. O app está disponível para uso, clique no card.",
+  "web-and-mobile-app-for-car-sales-ads": "App web e mobile para anúncios de vendas de carros.",
+  "nlw-esports-rocketseat": "App web e mobile da NLW eSports Rocketseat. Encontre o seu duo dos games com esse app.",
+  "web-app-for-car-sales-and-purchases": "App web para vendas e compras de automoveis. Permite que pessoa física ou jurídica possa utilizar o app de forma simples e segura.",
+  "nlw-05-rocketseat": "App web da NLW #05 Rocketseat. Plataforma de perguntas e respostas em real-time.",
+  "etl-web-app": "ETL web app. Georeferenced data will be extracted from shapefiles and loaded into a geographic database.",
+  "nlw-02-rocketseat": "App web da NLW #02 Rocketseat. Plataforma online de estudos.",
+  "nlw-01-rocketseat": "App web da NLW #01 Rocketseat. Sistema de cadastro e pesquisa de ponto de coletas.",
+  "a-platform-for-production-control": "Uma plataforma para controle de produção e qualidade de produtos para pequenas empresas.",
+  "experience-and-user-interfaces-for-carson": "Experiência e interfaces de usuário para CarsOn. App web de vendas e compras de automoveis."
 }

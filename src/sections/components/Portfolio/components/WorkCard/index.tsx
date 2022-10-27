@@ -1,3 +1,5 @@
+import { FormattedMessage } from "react-intl";
+
 import Tag from "../../../../../shared/components/Tag";
 
 import { Container } from "./styles";
@@ -23,8 +25,12 @@ const WorkCard = ({
     <Container onClick={() => window.open(`${redirectUrl}`)}>
       <div className="content">
         <div className="info">
-          <h5>{title}</h5>
-          <p>{description}</p>
+          <h5>
+            <FormattedMessage id={title} />
+          </h5>
+          <p>
+            <FormattedMessage id={description} />
+          </p>
         </div>
 
         <div className="tags-and-banner">
