@@ -8,15 +8,22 @@ export const Container = styled.div`
   width: 100%;
   margin-top: 100px;
 
-  .header {
+  .header-project-video {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start !important;
+    justify-content: flex-start;
     flex-direction: column;
     margin-bottom: 53px;
 
     h1 {
       margin: 0;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 56px;
+
+      color: #ffffff;
     }
 
     h4 {
@@ -133,8 +140,14 @@ export const Container = styled.div`
       padding-right: 64px;
     }
 
-    .header {
+    .header-project-video {
       gap: 8px !important;
+
+      h1 {
+        margin: 16px 0 0 0;
+        font-size: 24px;
+        line-height: 28px;
+      }
 
       h4 {
         margin: 0;

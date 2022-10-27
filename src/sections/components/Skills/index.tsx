@@ -33,7 +33,7 @@ const Skills = () => {
 
   return (
     <Container id="skills">
-      <TagSection text="🧑‍💻 Skills" />
+      <TagSection text="skills-emoji" />
       {isMobile ? (
         <h1>
           <FormattedMessage id="technologies" /> <br />{" "}

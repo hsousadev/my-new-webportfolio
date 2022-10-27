@@ -25,9 +25,7 @@ const WorkCard = ({
     <Container onClick={() => window.open(`${redirectUrl}`)}>
       <div className="content">
         <div className="info">
-          <h5>
-            <FormattedMessage id={title} />
-          </h5>
+          <h5>{title}</h5>
           <p>
             <FormattedMessage id={description} />
           </p>

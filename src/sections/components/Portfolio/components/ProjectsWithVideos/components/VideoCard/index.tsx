@@ -29,9 +29,7 @@ const VideoCard = ({
     <Container onClick={() => handleVideoModal()}>
       <img src={bannerUrl} alt="" />
       <div className="title-and-tags">
-        <h1>
-          <FormattedMessage id={title} />
-        </h1>
+        <h1>{title}</h1>
       </div>
       <div className="description">
         <p>

@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import useWindowSize from "../../../../../shared/hooks/useWindowSize";
 
 import { Quotes } from "phosphor-react";
@@ -28,13 +29,17 @@ const CardRecommendation = ({
           <Quotes weight="thin" size={32} color="var(--PURPLE)" />
         )}
 
-        <p>{comment}</p>
+        <p>
+          <FormattedMessage id={comment} />
+        </p>
       </div>
       <div className="author-info">
         <img src={authorPictureUrl} alt="" />
         <div className="name-and-position">
           <h1>{authorName}</h1>
-          <h3>{position}</h3>
+          <h3>
+            <FormattedMessage id={position} />
+          </h3>
         </div>
       </div>
     </Container>

@@ -64,7 +64,7 @@ const ProjectsWithVideos = () => {
         />
       ) : (
         <Container>
-          <div className="header">
+          <div className="header-project-video">
             {isMobile ? (
               <h1>
                 <FormattedMessage id="projects" /> <br />{" "}

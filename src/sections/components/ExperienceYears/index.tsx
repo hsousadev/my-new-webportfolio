@@ -20,17 +20,17 @@ const ExperienceYears = () => {
           <>
             <ExperienceCard
               img={codeIcon}
-              yearsDesc="3-years-as-a"
+              yearsDesc="three-years-as-a"
               area="developer"
             />
             <ExperienceCard
               img={designIcon}
               yearsDesc="4-years-as-a"
-              area="Designer"
+              area="designer"
             />
             <ExperienceCard
               img={projectsIcon}
-              yearsDesc="7-years-of"
+              yearsDesc="seven-years-of"
               area="work"
             />
           </>
@@ -38,18 +38,18 @@ const ExperienceYears = () => {
           <>
             <ExperienceCard
               img={codeIcon}
-              yearsDesc="3-years-as-a"
+              yearsDesc="three-years-as-a"
               area="developer"
             />
             <ExperienceCard
               img={projectsIcon}
-              yearsDesc="7-years-of"
+              yearsDesc="seven-years-of"
               area="work"
             />
             <ExperienceCard
               img={designIcon}
               yearsDesc="4-years-as-a"
-              area="Designer"
+              area="designer"
             />
           </>
         )}

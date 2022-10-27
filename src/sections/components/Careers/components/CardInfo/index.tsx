@@ -4,7 +4,7 @@ import { Container } from "./styles";
 interface CardInfoProps {
   title: string;
   description: string;
-  yearsOfExperience: string;
+  yearsOfExperience?: string;
   startAndEnd: string;
 }
 
@@ -26,8 +26,11 @@ const CardInfo = ({
       </div>
 
       <div className="dates">
-        <strong>{yearsOfExperience}</strong>
-        <h5>{startAndEnd}</h5>
+        {/* <strong><FormattedMessage id={yearsOfExperience}/></strong> */}
+
+        <h5>
+          <FormattedMessage id={startAndEnd} />
+        </h5>
       </div>
     </Container>
   );

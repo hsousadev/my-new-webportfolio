@@ -29,7 +29,7 @@ const Contacts = () => {
   return (
     <Container id="contacts">
       <div className="tag-and-title">
-        <TagSection text="📬 Contatos" />
+        <TagSection text="contact-emoji" />
         <h1>Vamos conversar!</h1>
       </div>
 
