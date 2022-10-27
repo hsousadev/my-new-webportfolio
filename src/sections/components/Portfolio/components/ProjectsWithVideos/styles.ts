@@ -11,7 +11,7 @@ export const Container = styled.div`
   .header {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: flex-start !important;
     flex-direction: column;
     margin-bottom: 53px;
 

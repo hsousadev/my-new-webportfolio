@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import useWindowSize from "../../../shared/hooks/useWindowSize";
 
 import TagSection from "../../../shared/components/TagSection";
@@ -35,13 +36,19 @@ const Skills = () => {
       <TagSection text="🧑‍💻 Skills" />
       {isMobile ? (
         <h1>
-          Tecnologias <br /> e habilidades
+          <FormattedMessage id="technologies" /> <br />{" "}
+          <FormattedMessage id="and-skills" />
         </h1>
       ) : (
-        <h1>Tecnologias e habilidades</h1>
+        <h1>
+          <FormattedMessage id="technologies" />{" "}
+          <FormattedMessage id="and-skills" />
+        </h1>
       )}
 
-      <h3>Techs que uso no dia a dia</h3>
+      <h3>
+        <FormattedMessage id="techs-i-use-on-a-daily-basis" />
+      </h3>
       <div className="techs">
         <img src={reactIcon} alt="" />
         <img src={javascriptIcon} alt="" />
@@ -54,7 +61,9 @@ const Skills = () => {
         <img src={githubIcon} alt="" />
         <img src={insomniaIcon} alt="" />
       </div>
-      <h3>Outras techs com que já realizei projetos</h3>
+      <h3>
+        <FormattedMessage id="other-techs-ive-done-projects-with" />
+      </h3>
       <div className="techs">
         <img src={bitbucketIcon} alt="" />
         <img src={vueIcon} alt="" />

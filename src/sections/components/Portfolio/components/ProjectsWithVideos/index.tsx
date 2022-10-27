@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FormattedMessage } from "react-intl";
 
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -22,7 +23,7 @@ const ProjectsWithVideos = () => {
   const videosCard = [
     <VideoCard
       title="VisGeo"
-      description="Pitch da aplicação"
+      description="application-pitch"
       bannerUrl="https://user-images.githubusercontent.com/56441371/93688444-5704dc80-fa9c-11ea-8bed-fdac35ce7337.png"
       videoLink="https://www.youtube.com/embed/hQMvhnpsWpU"
       setShowVideoModal={setShowVideoModal}
@@ -30,7 +31,7 @@ const ProjectsWithVideos = () => {
     />,
     <VideoCard
       title="UDA Brasil"
-      description="Pitch da aplicação"
+      description="application-pitch"
       bannerUrl="https://user-images.githubusercontent.com/54003876/84607266-b4c4cf80-ae82-11ea-9104-2166954a5197.png"
       videoLink="https://www.youtube.com/embed/vIIeVExmZiM"
       setShowVideoModal={setShowVideoModal}
@@ -38,7 +39,7 @@ const ProjectsWithVideos = () => {
     />,
     <VideoCard
       title="Typext"
-      description="Pitch da aplicação"
+      description="application-pitch"
       bannerUrl="https://user-images.githubusercontent.com/56441371/112768034-52dbed80-8ff0-11eb-8a72-5190c56f1090.png"
       videoLink="https://www.youtube.com/embed/65Go1Nz3KBA"
       setShowVideoModal={setShowVideoModal}
@@ -46,7 +47,7 @@ const ProjectsWithVideos = () => {
     />,
     <VideoCard
       title="OneCar"
-      description="Pitch da aplicação"
+      description="application-pitch"
       bannerUrl="https://user-images.githubusercontent.com/56441318/133950991-44ac40d3-c041-4c7a-b35b-bbf84abc9c37.png"
       videoLink="https://www.youtube.com/embed/LraPykzShIA"
       setShowVideoModal={setShowVideoModal}
@@ -66,13 +67,19 @@ const ProjectsWithVideos = () => {
           <div className="header">
             {isMobile ? (
               <h1>
-                Projetos <br /> em vídeos
+                <FormattedMessage id="projects" /> <br />{" "}
+                <FormattedMessage id="with-videos" />
               </h1>
             ) : (
-              <h1>Projetos em vídeos</h1>
+              <h1>
+                <FormattedMessage id="projects" />{" "}
+                <FormattedMessage id="with-videos" />
+              </h1>
             )}
 
-            <h4>Sempre é bom saber um pouquinho de edição</h4>
+            <h4>
+              <FormattedMessage id="its-always-good-to-know-a-little-editing" />
+            </h4>
           </div>
 
           {isMobile ? (
@@ -80,7 +87,7 @@ const ProjectsWithVideos = () => {
               <div className="content">
                 <VideoCard
                   title="VisGeo"
-                  description="Pitch da aplicação"
+                  description="application-pitch"
                   bannerUrl="https://user-images.githubusercontent.com/56441371/93688444-5704dc80-fa9c-11ea-8bed-fdac35ce7337.png"
                   videoLink="https://www.youtube.com/embed/hQMvhnpsWpU"
                   setShowVideoModal={setShowVideoModal}
@@ -88,7 +95,7 @@ const ProjectsWithVideos = () => {
                 />
                 <VideoCard
                   title="UDA Brasil"
-                  description="Pitch da aplicação"
+                  description="application-pitch"
                   bannerUrl="https://user-images.githubusercontent.com/54003876/84607266-b4c4cf80-ae82-11ea-9104-2166954a5197.png"
                   videoLink="https://www.youtube.com/embed/vIIeVExmZiM"
                   setShowVideoModal={setShowVideoModal}
@@ -96,7 +103,7 @@ const ProjectsWithVideos = () => {
                 />
                 <VideoCard
                   title="Typext"
-                  description="Pitch da aplicação"
+                  description="application-pitch"
                   bannerUrl="https://user-images.githubusercontent.com/56441371/112768034-52dbed80-8ff0-11eb-8a72-5190c56f1090.png"
                   videoLink="https://www.youtube.com/embed/65Go1Nz3KBA"
                   setShowVideoModal={setShowVideoModal}
@@ -104,7 +111,7 @@ const ProjectsWithVideos = () => {
                 />
                 <VideoCard
                   title="OneCar"
-                  description="Pitch da aplicação"
+                  description="application-pitch"
                   bannerUrl="https://user-images.githubusercontent.com/56441318/133950991-44ac40d3-c041-4c7a-b35b-bbf84abc9c37.png"
                   videoLink="https://www.youtube.com/embed/LraPykzShIA"
                   setShowVideoModal={setShowVideoModal}

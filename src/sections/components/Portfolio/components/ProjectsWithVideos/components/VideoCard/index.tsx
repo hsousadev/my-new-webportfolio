@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import { Play } from "phosphor-react";
 
 import { Container } from "./styles";
@@ -28,13 +29,18 @@ const VideoCard = ({
     <Container onClick={() => handleVideoModal()}>
       <img src={bannerUrl} alt="" />
       <div className="title-and-tags">
-        <h1>{title}</h1>
+        <h1>
+          <FormattedMessage id={title} />
+        </h1>
       </div>
       <div className="description">
-        <p>{description}</p>
+        <p>
+          <FormattedMessage id={description} />
+        </p>
 
         <button className="play-button">
-          Clique para assistir <Play color="var(--PURPLE)" size={24} />
+          <FormattedMessage id="click-to-watch" />{" "}
+          <Play color="var(--PURPLE)" size={24} />
         </button>
       </div>
     </Container>

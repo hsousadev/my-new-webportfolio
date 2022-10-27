@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import { Container } from "./styles";
 
 interface CardInfoProps {
@@ -16,8 +17,12 @@ const CardInfo = ({
   return (
     <Container>
       <div className="title-and-description">
-        <h4>{title}</h4>
-        <p>{description}</p>
+        <h4>
+          <FormattedMessage id={title} />
+        </h4>
+        <p>
+          <FormattedMessage id={description} />
+        </p>
       </div>
 
       <div className="dates">

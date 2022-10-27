@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import useWindowSize from "../../../shared/hooks/useWindowSize";
 
 import TagSection from "../../../shared/components/TagSection";
@@ -11,20 +12,27 @@ const Careers = () => {
 
   return (
     <Container>
-      <TagSection text="💼 Carreira" />
+      <TagSection text="career-emoji" />
 
       {isMobile ? (
         <h1>
-          Trajetória <br /> até aqui
+          <FormattedMessage id="trajectory" /> <br />{" "}
+          <FormattedMessage id="so-far" />
         </h1>
       ) : (
-        <h1>Trajetória até aqui</h1>
+        <h1>
+          <FormattedMessage id="trajectory" /> <FormattedMessage id="so-far" />
+        </h1>
       )}
 
       <div className="columns">
         <div className="column">
-          <h1 id="career">Área profissional</h1>
-          <h3>2016 · Atualmente</h3>
+          <h1 id="career">
+            <FormattedMessage id="profissional-area" />
+          </h1>
+          <h3>
+            2016 · <FormattedMessage id="at-the-moment" />
+          </h3>
           <div className="content">
             <div className="cards">
               <CardInfo
@@ -62,8 +70,12 @@ const Careers = () => {
         </div>
 
         <div className="column">
-          <h1>Área acadêmica</h1>
-          <h3>2015 · Atualmente</h3>
+          <h1>
+            <FormattedMessage id="academic-area" />
+          </h1>
+          <h3>
+            2015 · <FormattedMessage id="at-the-moment" />
+          </h3>
           <div className="content">
             <div className="cards">
               <CardInfo
