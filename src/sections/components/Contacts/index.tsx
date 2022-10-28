@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { FormattedMessage } from "react-intl";
+
 import smoothScroll from "../../../shared/utils/smoothScroll";
 
 import copy from "copy-to-clipboard";
@@ -30,7 +32,9 @@ const Contacts = () => {
     <Container id="contacts">
       <div className="tag-and-title">
         <TagSection text="contact-emoji" />
-        <h1>Vamos conversar!</h1>
+        <h1>
+          <FormattedMessage id="lets-talk-section" />{" "}
+        </h1>
       </div>
 
       <div className="wpp-and-email">
@@ -62,12 +66,16 @@ const Contacts = () => {
             </>
           )}
 
-          {copySuccess && <h4>✅ Texto copiado para o clipboard!</h4>}
+          {copySuccess && (
+            <h4>
+              ✅ <FormattedMessage id="text-copied-to-clipboard" />
+            </h4>
+          )}
         </div>
       </div>
 
       <h3 onClick={() => smoothScroll("hero")}>
-        Voltar ao topo <ArrowUp />
+        <FormattedMessage id="back-to-the-top" /> <ArrowUp />
       </h3>
     </Container>
   );

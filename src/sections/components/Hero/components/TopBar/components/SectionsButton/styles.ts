@@ -61,6 +61,7 @@ export const Container = styled.div<ContainerProps>`
       display: flex;
 
       color: #ffffff;
+      opacity: 60%;
 
       img {
         width: 24px;
@@ -70,7 +71,6 @@ export const Container = styled.div<ContainerProps>`
       :hover {
         transition: all 0.2s ease-in-out;
         color: var(--PURPLE);
-        opacity: 60%;
       }
     }
 
@@ -79,6 +79,7 @@ export const Container = styled.div<ContainerProps>`
         props?.language === "pt" &&
         css`
           color: var(--PURPLE);
+          opacity: 100%;
         `}
     }
 
@@ -87,6 +88,7 @@ export const Container = styled.div<ContainerProps>`
         props?.language === "en" &&
         css`
           color: var(--PURPLE);
+          opacity: 100%;
         `}
     }
   }

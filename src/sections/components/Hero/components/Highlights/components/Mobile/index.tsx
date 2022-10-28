@@ -1,21 +1,28 @@
+import { FormattedMessage } from "react-intl";
+import { useContext } from "react";
 import { ArrowLineDown } from "phosphor-react";
+
+import { Context } from "../../../../../../../App";
 
 import heroAvatar from "../../../../../../../shared/assets/illustrations/hero-avatar.svg";
 import Linkedin from "../../../../../../../shared/assets/icons/linkedin-white-circle.svg";
 import Github from "../../../../../../../shared/assets/icons/github-white-circle.svg";
 import Behance from "../../../../../../../shared/assets/icons/behance-white-circle.svg";
 import Figma from "../../../../../../../shared/assets/icons/figma-white-circle.svg";
-
+import brazilFlag from "../../../../../../../shared/assets/icons/brazil-flag.svg";
+import usaFlag from "../../../../../../../shared/assets/icons/usa-flag.svg";
 import Resume from "../../../../../../../shared/docs/resume-henrique-sousa.pdf";
 
-import { Container } from "./styles";
 import TagSection from "../../../../../../../shared/components/TagSection";
 import LetsTalkButton from "../../../../../../../shared/components/LetsTalkButton";
-import { FormattedMessage } from "react-intl";
+
+import { Container } from "./styles";
 
 const Mobile = () => {
+  const { language, setLanguage } = useContext(Context);
+
   return (
-    <Container>
+    <Container language={language}>
       <div className="social-medias">
         <img
           src={Linkedin}
@@ -42,11 +49,19 @@ const Mobile = () => {
           }
         />
       </div>
+      <div className="lang">
+        <button id="pt" className="language" onClick={() => setLanguage("pt")}>
+          PT <img src={brazilFlag} alt="" />
+        </button>
+        <button id="en" className="language" onClick={() => setLanguage("en")}>
+          EN <img src={usaFlag} alt="" />
+        </button>
+      </div>
 
       <img className="avatar" src={heroAvatar} alt="" />
 
       <div className="texts">
-        <TagSection text="👋 Saudações!" />
+        <TagSection text="greetings" />
 
         <div className="name-and-title">
           <h1>
