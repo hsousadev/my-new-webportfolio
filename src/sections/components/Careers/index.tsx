@@ -40,33 +40,38 @@ const Careers = () => {
           <div className="content">
             <div className="cards">
               <CardInfo
+                title="front-end-developer-at-softexpert"
+                description="working-in-the-application-workspace"
+                startAndEnd="december-2022-currently"
+              />
+              <CardInfo
+                title="front-end-developer-at-coderockr"
+                description="working-on-the-maintenance"
+                startAndEnd="november-2022-december-2022"
+              />
+              <CardInfo
                 title="front-end-developer-at-ensinio"
                 description="development-of-features"
-                // yearsOfExperience="one-year-and-7-months"
                 startAndEnd="april-2021-currently"
               />
               <CardInfo
                 title="designer-at-viralizzi"
                 description="viralizzi-as-a-designer"
-                // yearsOfExperience="three-months"
                 startAndEnd="january-2021-april-2021"
               />
               <CardInfo
                 title="programming-instructor-at-superGeeks"
                 description="acting-as-a-programming"
-                // yearsOfExperience="one-year-and-11-months"
                 startAndEnd="february-2019-january-2021"
               />
               <CardInfo
                 title="designer-editor-and-hardware-support-at-alorean"
                 description="freelance-design-services"
-                // yearsOfExperience="one-year"
                 startAndEnd="january-2020-january-2021"
               />
               <CardInfo
                 title="young-apprentice"
                 description="at-the-end-of-2016"
-                // yearsOfExperience="one-year-and-three-months"
                 startAndEnd="october-2016-december-2017"
               />
             </div>
@@ -85,37 +90,31 @@ const Careers = () => {
               <CardInfo
                 title="higher-degree-systems-analysis-and-development"
                 description="graduated-from-fatec"
-                // yearsOfExperience="three-years"
                 startAndEnd="august-2019-august-2022"
               />
               <CardInfo
                 title="technician-computer-networks"
                 description="in-2019-i-graduated"
-                // yearsOfExperience="one-year-and-six-months"
                 startAndEnd="february-2018-june-2019"
               />
               <CardInfo
                 title="english-advanced-conversation"
                 description="in-the-second-half-of-2018"
-                // yearsOfExperience="six-months"
                 startAndEnd="july-2018-december-2018"
               />
               <CardInfo
                 title="complete-high-school"
                 description="at-the-end-of-2017"
-                // yearsOfExperience=""
                 startAndEnd="january-2015-december-2017"
               />
               <CardInfo
                 title="advanced-computing"
                 description="in-november-2017"
-                // yearsOfExperience="eight-months"
                 startAndEnd="february-2017-november-2017"
               />
               <CardInfo
                 title="professional-informatics"
                 description="at-the-end-of-2016-i-was-certified"
-                // yearsOfExperience="one-year-three-months"
                 startAndEnd="october-2015-december-2016"
               />
             </div>

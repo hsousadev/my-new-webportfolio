@@ -8,7 +8,7 @@ import Figma from "../../../shared/assets/icons/figma-white-circle.svg";
 const Footer = () => {
   return (
     <Container>
-      <h1>Copyright © Henrique Sousa · 2022</h1>
+      <h1>Copyright © Henrique Sousa · 2023</h1>
 
       <div className="social-medias">
         <img
