@@ -11,7 +11,7 @@ import Behance from "../../../../../../../shared/assets/icons/behance-white-circ
 import Figma from "../../../../../../../shared/assets/icons/figma-white-circle.svg";
 import brazilFlag from "../../../../../../../shared/assets/icons/brazil-flag.svg";
 import usaFlag from "../../../../../../../shared/assets/icons/usa-flag.svg";
-import Resume from "../../../../../../../shared/docs/resume-henrique-sousa.pdf";
+import Resume from "../../../../../../../shared/docs/resume-henrique-mar-2023.pdf";
 
 import TagSection from "../../../../../../../shared/components/TagSection";
 import LetsTalkButton from "../../../../../../../shared/components/LetsTalkButton";
@@ -71,7 +71,7 @@ const Mobile = () => {
         </div>
 
         <div className="buttons">
-          <a href={Resume} download="resume-henrique-sousa.pdf" target="_blank">
+          <a href={Resume} download="resume-henrique-mar-2023.pdf" target="_blank">
             <FormattedMessage id="download" /> CV{" "}
             <ArrowLineDown size={24} color="rgba(123, 74, 226, 0.5)" />
           </a>

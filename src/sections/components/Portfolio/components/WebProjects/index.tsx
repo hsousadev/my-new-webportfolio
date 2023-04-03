@@ -4,6 +4,14 @@ const WebProjects = () => {
   return (
     <>
       <WorkCard
+        title="Rick And Morty Wiki"
+        description="all-about-characters-episodes-and-more"
+        tags={["Online", "NextJS", "React JS", "Typescript"]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/229385071-92694ca7-ca83-4c9a-b316-ef3a6b27640a.png"
+        redirectUrl="https://rickandmortysite.vercel.app/"
+        online
+      />
+      <WorkCard
         title="Move.it"
         description="nlw-04-rocketseat"
         tags={["Online", "React JS", "Typescript"]}
@@ -52,13 +60,6 @@ const WebProjects = () => {
         tags={["HTML", "CSS", "Express", "Sqlite3"]}
         bannerUrl="https://user-images.githubusercontent.com/54003876/107502115-07bc6700-6b77-11eb-8e13-58c757a4ec94.png"
         redirectUrl="https://github.com/justhenrique/proffy"
-      />
-      <WorkCard
-        title="Ecoleta"
-        description="nlw-01-rocketseat"
-        tags={["HMTL", "CSS", "Express", "Sqlite3"]}
-        bannerUrl="https://user-images.githubusercontent.com/54003876/89297367-18c17400-d63a-11ea-807c-811c0ce82f47.png"
-        redirectUrl="https://github.com/justhenrique/esports-nlw-rocketseat"
       />
     </>
   );
