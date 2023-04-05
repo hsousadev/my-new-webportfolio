@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 
 interface ContainerProps {
   online?: boolean;
+  beta?: boolean;
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -29,6 +30,11 @@ export const Container = styled.div<ContainerProps>`
       ? css`
           color: #4ae290;
           background: rgba(74, 226, 144, 0.3);
+        `
+      : props?.beta
+      ? css`
+          background: #7b4ae2;
+          color: white;
         `
       : css`
           color: #7b4ae2;

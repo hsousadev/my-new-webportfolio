@@ -11,6 +11,7 @@ interface WorkCardProps {
   bannerUrl: string;
   redirectUrl: string;
   online?: boolean;
+  beta?: boolean;
 }
 
 const WorkCard = ({
@@ -20,6 +21,7 @@ const WorkCard = ({
   bannerUrl,
   redirectUrl,
   online,
+  beta,
 }: WorkCardProps) => {
   return (
     <Container onClick={() => window.open(`${redirectUrl}`)}>
@@ -34,7 +36,9 @@ const WorkCard = ({
         <div className="tags-and-banner">
           <div className="tags">
             {tags.map((tag, index) =>
-              tag === "Online" ? (
+              tag === "Beta" ? (
+                <Tag key={index} text={tag} beta={beta} />
+              ) : tag === "Online" ? (
                 <Tag key={index} text={tag} online={online} />
               ) : (
                 <Tag key={index} text={tag} />

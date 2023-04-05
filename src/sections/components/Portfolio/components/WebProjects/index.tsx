@@ -4,6 +4,15 @@ const WebProjects = () => {
   return (
     <>
       <WorkCard
+        title="Nanotícia"
+        description="site-that-brings-together"
+        tags={["Online", "Beta", "NextJS", "React JS", "Typescript"]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/230179614-5f7119ea-f196-4b6a-995b-a0b704bc392a.png"
+        redirectUrl="https://nanoticia.vercel.app/"
+        online
+        beta
+      />
+      <WorkCard
         title="Rick And Morty Wiki"
         description="all-about-characters-episodes-and-more"
         tags={["Online", "NextJS", "React JS", "Typescript"]}
@@ -46,13 +55,6 @@ const WebProjects = () => {
         tags={["React JS", "Typescript", "SCSS"]}
         bannerUrl="https://user-images.githubusercontent.com/54003876/126014850-8c0dc36e-8aeb-4d1a-84c0-9a1c1e20c128.png"
         redirectUrl="https://github.com/justhenrique/esports-nlw-rocketseat"
-      />
-      <WorkCard
-        title="VisGeo"
-        description="etl-web-app"
-        tags={["React JS", "React Native", "Node"]}
-        bannerUrl="https://user-images.githubusercontent.com/56441371/93688444-5704dc80-fa9c-11ea-8bed-fdac35ce7337.png"
-        redirectUrl="https://github.com/justhenrique/VisGeo-ETL"
       />
       <WorkCard
         title="Proffy"
