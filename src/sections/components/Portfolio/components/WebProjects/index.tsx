@@ -13,6 +13,13 @@ const WebProjects = () => {
         beta
       />
       <WorkCard
+        title="Adicionei"
+        description="contact-management-web-app"
+        tags={["NextJS", "React JS", "Typescript"]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/234316093-88e43f19-7a72-4300-b24f-924f1f299457.png"
+        redirectUrl="https://github.com/justhenrique/adicionei"
+      />
+      <WorkCard
         title="Rick And Morty Wiki"
         description="all-about-characters-episodes-and-more"
         tags={["Online", "NextJS", "React JS", "Typescript"]}
@@ -56,13 +63,13 @@ const WebProjects = () => {
         bannerUrl="https://user-images.githubusercontent.com/54003876/126014850-8c0dc36e-8aeb-4d1a-84c0-9a1c1e20c128.png"
         redirectUrl="https://github.com/justhenrique/esports-nlw-rocketseat"
       />
-      <WorkCard
+      {/* <WorkCard
         title="Proffy"
         description="nlw-02-rocketseat"
         tags={["HTML", "CSS", "Express", "Sqlite3"]}
         bannerUrl="https://user-images.githubusercontent.com/54003876/107502115-07bc6700-6b77-11eb-8e13-58c757a4ec94.png"
         redirectUrl="https://github.com/justhenrique/proffy"
-      />
+      /> */}
     </>
   );
 };
