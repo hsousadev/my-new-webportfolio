@@ -13,7 +13,7 @@ const DesignProjects = () => {
       <WorkCard
         title="CarsOn"
         description="experience-and-user-interfaces-for-carson"
-        tags={["UX · UI Design"]}
+        tags={["UI Design"]}
         bannerUrl="https://s3-alpha.figma.com/hub/file/1925447461/b574f42b-f4dd-4b5f-8e3e-33218867b443-cover.png"
         redirectUrl="https://www.figma.com/community/file/1162159871260028405"
       />
@@ -27,21 +27,21 @@ const DesignProjects = () => {
       <WorkCard
         title="Typext"
         description="web-app-for-creating-and-managing-digital-minutes"
-        tags={["UX · UI Design"]}
+        tags={["UI Design"]}
         bannerUrl="https://s3-alpha.figma.com/hub/file/1683931930/e07eb0e5-54cb-48be-af3e-d796ee5eaf1b-cover.png"
         redirectUrl="https://www.figma.com/community/file/1162160606182370806"
       />
       <WorkCard
         title="Re-design site Ensinio"
         description="re-design-ensinio"
-        tags={["UX · UI Design", "Re-design"]}
+        tags={["UI Design", "Re-design"]}
         bannerUrl="https://s3-alpha.figma.com/hub/file/2494220563/03033aaa-f74a-4478-bf73-9f18dae1e4cd-cover.png"
         redirectUrl="https://www.figma.com/community/file/1164776880594444677"
       />
       <WorkCard
         title="Web Portfólio · Matheus Campos"
         description="design-created-for-matheus-campos"
-        tags={["UX · UI Design"]}
+        tags={["UI Design"]}
         bannerUrl="https://s3-alpha.figma.com/hub/file/1878891985/cab9faa8-1376-4488-ab71-125e5832e138-cover.png"
         redirectUrl="https://www.figma.com/community/file/1162157859305054706"
       />
@@ -55,7 +55,7 @@ const DesignProjects = () => {
       <WorkCard
         title="Instagram Dark Mode"
         description="re-creation-of-the-instagram"
-        tags={["UX · UI Design", "Re-design"]}
+        tags={["UI Design", "Re-design"]}
         bannerUrl="https://s3-alpha.figma.com/hub/file/2424161642/ff58a337-4773-43ab-82d8-77b26214c837-cover.png"
         redirectUrl="https://www.figma.com/community/file/1162155986654328303"
       />

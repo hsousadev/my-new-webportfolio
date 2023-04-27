@@ -7,7 +7,7 @@ const WebProjects = () => {
         title="Nanotícia"
         description="site-that-brings-together"
         tags={["Online", "Beta", "NextJS", "React JS", "Typescript"]}
-        bannerUrl="https://user-images.githubusercontent.com/54003876/230179614-5f7119ea-f196-4b6a-995b-a0b704bc392a.png"
+        bannerUrl="https://user-images.githubusercontent.com/54003876/234693350-e9c7e550-f78b-484e-b67e-b92b02ff5d85.png"
         redirectUrl="https://nanoticia.vercel.app/"
         online
         beta
@@ -63,13 +63,6 @@ const WebProjects = () => {
         bannerUrl="https://user-images.githubusercontent.com/54003876/126014850-8c0dc36e-8aeb-4d1a-84c0-9a1c1e20c128.png"
         redirectUrl="https://github.com/justhenrique/esports-nlw-rocketseat"
       />
-      {/* <WorkCard
-        title="Proffy"
-        description="nlw-02-rocketseat"
-        tags={["HTML", "CSS", "Express", "Sqlite3"]}
-        bannerUrl="https://user-images.githubusercontent.com/54003876/107502115-07bc6700-6b77-11eb-8e13-58c757a4ec94.png"
-        redirectUrl="https://github.com/justhenrique/proffy"
-      /> */}
     </>
   );
 };

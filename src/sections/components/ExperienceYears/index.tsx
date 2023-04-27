@@ -75,7 +75,7 @@ const ExperienceYears = () => {
             <h5>
               <FormattedMessage id="freelance-designer-and" />
             </h5>
-            <h1>UI · UX</h1>
+            <h1>UI Designer</h1>
           </div>
         </div>
       )}

@@ -13,6 +13,14 @@ export const Container = styled.div`
   height: 60px;
   padding: 24px;
 
+  img {
+    cursor: pointer;
+    :hover {
+      transition: all 0.4s ease-in-out;
+      scale: 110%;
+    }
+  }
+
   h1 {
     font-family: "Raleway";
     font-style: normal;
