@@ -56,9 +56,9 @@
   "other-techs-ive-done-projects-with": "Outras techs com que já realizei projetos",
   "trajectory": "Tragetória",
   "so-far": "até aqui",
-  "profissional-area": "Profissional area",
+  "profissional-area": "Profissional",
   "at-the-moment": "Atualmente",
-  "academic-area": "Área acadêmica",
+  "academic-area": "Acadêmica",
   "front-end-developer-at-ensinio": "Desenvolvedor front-end na Ensinio",
   "development-of-features": "Desenvolvimento de features na aplicação principal e site. com React Js e Typescript, além do auxíllio de outras tecnologias como Next, Styled Components e padrões de arquitetura.",
   "one-year-and-7-months": "1 ano e 7 meses",
@@ -121,11 +121,14 @@
   "back-to-the-top": "Voltar ao topo",
   "front-end-developer-at-softexpert": "Desenvolvedor front-end na SoftExpert",
   "working-in-the-application-workspace": "Atuando na área de workspace da aplicação com desenvolvimento e manutenção do front-end em ReactJS e JavaScript.",
-  "december-2022-currently": "Dezembro/2022 · Atualmente",
+  "december-2022-currently": "Dezembro/2022 · Abril/2023",
   "front-end-developer-at-coderockr": "Desenvolvedor front-end na Coderockr",
   "working-on-the-maintenance": "Trabalhando na manutenção de diversas aplicações de clientes em ReactJS.",
   "november-2022-december-2022": "Novembro/2022 · Dezembro/2022",
   "all-about-characters-episodes-and-more": "Um site com diversas informações sobre a série: personagens, episódios e mais.",
   "site-that-brings-together": "Reune os principais portais de notícias em um só lugar. Mundo, esportes, tecnologias, negócios e mundo mais. ",
-  "contact-management-web-app": "APP web de gerenciamento de contatos. (CRUD)"
+  "contact-management-web-app": "APP web de gerenciamento de contatos. (CRUD)",
+  "ignite-rocketseat": "Ignite Rocketseat | ReactJS e NodeJS",
+  "improving-myself-on-the-front-end": "Me aprimorando no front-end e iniciando no back-end. Design Systems, GraphQL. JAMStack, Suspense API, Streaming SSR, Docker, TypeORM, JWT e bcrypt são alguns dos principais conceitos que são abordados e tem mais! Clique e veja.",
+  "know-more": "Saiba mais"
 }

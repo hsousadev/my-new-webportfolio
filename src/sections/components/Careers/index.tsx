@@ -40,6 +40,20 @@ const Careers = () => {
           <div className="content">
             <div className="cards">
               <CardInfo
+                id="status"
+                title="ignite-rocketseat"
+                description="improving-myself-on-the-front-end"
+                startAndEnd="at-the-moment"
+                status
+                yearsOfExperience="know-more"
+                onClick={() =>
+                  window.open(
+                    "https://www.rocketseat.com.br/ignite#trilhas",
+                    "_blank"
+                  )
+                }
+              />
+              <CardInfo
                 title="front-end-developer-at-softexpert"
                 description="working-in-the-application-workspace"
                 startAndEnd="december-2022-currently"

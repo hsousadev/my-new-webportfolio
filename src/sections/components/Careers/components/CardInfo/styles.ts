@@ -1,6 +1,10 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-export const Container = styled.div`
+interface ContainerProps {
+  status?: boolean;
+}
+
+export const Container = styled.div<ContainerProps>`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,13 +13,25 @@ export const Container = styled.div`
   padding: 30px;
   width: 520px;
   height: 160px;
-  border: 1px solid rgba(123, 74, 226, 0.5);
   border-radius: 16px;
   transition: all 0.6s ease-in-out;
 
+  ${(props) =>
+    props.status
+      ? css`
+          cursor: pointer;
+          border: 2px solid #4ae290;
+          background: rgba(74, 226, 144, 0.1);
+        `
+      : css`
+          border: 1px solid rgba(123, 74, 226, 0.5);
+          :hover {
+            background: rgba(123, 74, 226, 0.1);
+          }
+        `}
+
   :hover {
     transition: all 0.6s ease-in-out;
-    background: rgba(123, 74, 226, 0.1);
     border: 1px solid transparent;
   }
 
@@ -45,10 +61,28 @@ export const Container = styled.div`
   }
 
   .dates {
+    ${(props) =>
+      props.status
+        ? css`
+            h5 {
+              display: flex;
+              gap: 0.5rem;
+              color: #4ae290 !important;
+            }
+            strong {
+              color: #4ae290;
+            }
+          `
+        : css`
+            strong {
+              color: var(--PURPLE);
+            }
+          `}
+
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 100%;
+    justify-content: space-between;
 
     strong {
       margin: 0;
@@ -59,8 +93,6 @@ export const Container = styled.div`
       line-height: 21px;
       display: flex;
       align-items: center;
-
-      color: var(--PURPLE);
     }
 
     h5 {

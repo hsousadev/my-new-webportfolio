@@ -17,6 +17,8 @@ import TagSection from "../../../../../../../shared/components/TagSection";
 import LetsTalkButton from "../../../../../../../shared/components/LetsTalkButton";
 
 import { Container } from "./styles";
+import smoothScroll from "../../../../../../../shared/utils/smoothScroll";
+import Pulse from "../../../../../../../shared/components/Pulse";
 
 const Mobile = () => {
   const { language, setLanguage } = useContext(Context);
@@ -58,6 +60,14 @@ const Mobile = () => {
         </button>
       </div>
 
+      <button
+        className="pulse"
+        onClick={() => smoothScroll("status")}
+        style={{ color: "#4AE290", opacity: "100%", fontWeight: "bold" }}
+      >
+        <Pulse /> Status
+      </button>
+
       <img className="avatar" src={heroAvatar} alt="" />
 
       <div className="texts">
@@ -71,7 +81,11 @@ const Mobile = () => {
         </div>
 
         <div className="buttons">
-          <a href={Resume} download="resume-henrique-mar-2023.pdf" target="_blank">
+          <a
+            href={Resume}
+            download="resume-henrique-mar-2023.pdf"
+            target="_blank"
+          >
             <FormattedMessage id="download" /> CV{" "}
             <ArrowLineDown size={24} color="rgba(123, 74, 226, 0.5)" />
           </a>

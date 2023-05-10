@@ -7,6 +7,8 @@ import smoothScroll from "../../../../../../../shared/utils/smoothScroll";
 import brazilFlag from "../../../../../../../shared/assets/icons/brazil-flag.svg";
 import usaFlag from "../../../../../../../shared/assets/icons/usa-flag.svg";
 
+import Pulse from "../../../../../../../shared/components/Pulse";
+
 import { Container } from "./styles";
 
 const SectionsButton = () => {
@@ -14,6 +16,12 @@ const SectionsButton = () => {
   return (
     <Container language={language}>
       <div className="sections">
+        <button
+          onClick={() => smoothScroll("status")}
+          style={{ color: "#4AE290", opacity: "100%", fontWeight: "bold" }}
+        >
+          <Pulse /> Status
+        </button>
         <button onClick={() => smoothScroll("hero")}>Home</button>
         <button onClick={() => smoothScroll("aboutMe")}>
           <FormattedMessage id="about-me" />

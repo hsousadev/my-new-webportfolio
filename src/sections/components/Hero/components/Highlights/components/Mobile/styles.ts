@@ -13,6 +13,24 @@ export const Container = styled.div<ContainerProps>`
   width: 100%;
   margin-top: 32px;
 
+  button.pulse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    outline: none;
+    appearance: none;
+    border: none;
+    gap: 4px;
+    margin-top: 32px;
+
+    background: rgba(74, 226, 144, 0.1);
+    padding: 8px 16px;
+    border-radius: 8px;
+
+    font-size: 16px;
+  }
+
   img.avatar {
     transition: all 0.6s ease-in-out;
     height: 500px;

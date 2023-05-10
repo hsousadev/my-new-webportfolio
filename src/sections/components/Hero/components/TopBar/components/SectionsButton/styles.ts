@@ -29,6 +29,11 @@ export const Container = styled.div<ContainerProps>`
       border: 0;
       padding: 0;
 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+
       :hover {
         transition: all 0.2s ease-in-out;
         color: var(--PURPLE);

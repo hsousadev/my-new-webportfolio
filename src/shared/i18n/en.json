@@ -57,9 +57,9 @@
   "other-techs-ive-done-projects-with": "Other techs I've done projects with",
   "trajectory": "Trajectory",
   "so-far": "so far",
-  "profissional-area": "Profissional area",
+  "profissional-area": "Professional",
   "at-the-moment": "At the moment",
-  "academic-area": "Academic area",
+  "academic-area": "Academic",
   "front-end-developer-at-ensinio": "Front-end developer at Ensinio",
   "development-of-features": "Development of features in the main application and website. with React Js and Typescript, in addition to the help of other technologies like Next, Styled Components and architectural patterns.",
   "one-year-and-7-months": "1 year and 7 months",
@@ -121,11 +121,14 @@
   "back-to-the-top": "Back to the top",
   "front-end-developer-at-softexpert": "Front-end developer at SoftExpert",
   "working-in-the-application-workspace": "Working in the application workspace area with development and front-end maintenance in ReactJS and JavaScript.",
-  "december-2022-currently": "December/2022 · Currently",
+  "december-2022-currently": "December/2022 · April/2023",
   "front-end-developer-at-coderockr": "Front-end Developer at Coderockr",
   "working-on-the-maintenance": "Working on the maintenance of several client applications in React JS.",
   "november-2022-december-2022": "November/2022 · December/2022",
   "all-about-characters-episodes-and-more": "A website with lots of information about the series: characters, episodes and more.",
   "site-that-brings-together": "Brings together the main news portals in one place. World, sports, technologies, business and much more.",
-  "contact-management-web-app": "Contact management web APP. (CRUD)"
+  "contact-management-web-app": "Contact management web APP. (CRUD)",
+  "ignite-rocketseat": "Ignite Rocketseat | ReactJS and NodeJS",
+  "improving-myself-on-the-front-end": "Improving myself on the front-end and starting on the back-end. Design Systems, GraphQL. JAMStack, Suspense API, Streaming SSR, Docker, TypeORM, JWT and bcrypt are some of the main concepts that are covered and there's more! Click and see.",
+  "know-more": "Know more"
 }

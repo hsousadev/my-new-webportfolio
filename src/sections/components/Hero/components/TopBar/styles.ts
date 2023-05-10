@@ -7,10 +7,13 @@ export const Container = styled.div`
 
   padding-top: 40px;
   width: 100%;
-  max-width: 1640px;
 
   background-color: var(--DARK);
   z-index: 10;
+
+  position: absolute;
+  top: 0;
+  filter: drop-shadow(0px 20px 100px #090e16);
 
   .content {
     display: flex;
@@ -18,9 +21,10 @@ export const Container = styled.div`
     justify-content: space-between;
 
     width: 100%;
+    max-width: 90%;
     padding: 12px 24px;
 
-    background: rgba(123, 74, 226, 0.025);
+    background: rgba(123, 74, 226, 0.15);
     border-radius: 16px;
 
     > img {
