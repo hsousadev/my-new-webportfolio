@@ -34,16 +34,16 @@ const CardInfo = ({
       </div>
 
       <div className="dates">
+        <h5>
+          {status && <Pulse />}
+          <FormattedMessage id={startAndEnd} />
+        </h5>
+
         {yearsOfExperience && (
           <strong>
             <FormattedMessage id={yearsOfExperience} />
           </strong>
         )}
-
-        <h5>
-          {status && <Pulse />}
-          <FormattedMessage id={startAndEnd} />
-        </h5>
       </div>
     </Container>
   );

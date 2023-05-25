@@ -130,5 +130,8 @@
   "contact-management-web-app": "APP web de gerenciamento de contatos. (CRUD)",
   "ignite-rocketseat": "Ignite Rocketseat | ReactJS e NodeJS",
   "improving-myself-on-the-front-end": "Me aprimorando no front-end e iniciando no back-end. Design Systems, GraphQL. JAMStack, Suspense API, Streaming SSR, Docker, TypeORM, JWT e bcrypt são alguns dos principais conceitos que são abordados e tem mais! Clique e veja.",
-  "know-more": "Saiba mais"
+  "know-more": "Saiba mais",
+  "freelancer": "Desenvolvedor front-end e UI Designer Freelancer",
+  "working-as-a-freelancer": "Atuando como desenvolvedor Front-end e UI Designer com React.js, Next.js, Node.js, Typescript, TailwindCss, Styled-componens, Vercel. Netfly, Vite, Figma e outras tecnologias",
+  "may-2023-currently": "Maio/2023 · Atualmente"
 }

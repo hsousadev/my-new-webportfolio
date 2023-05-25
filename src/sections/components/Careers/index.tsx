@@ -41,9 +41,16 @@ const Careers = () => {
             <div className="cards">
               <CardInfo
                 id="status"
+                title="freelancer"
+                description="working-as-a-freelancer"
+                startAndEnd="may-2023-currently"
+                status
+              />
+              <CardInfo
+                id="status"
                 title="ignite-rocketseat"
                 description="improving-myself-on-the-front-end"
-                startAndEnd="at-the-moment"
+                startAndEnd="may-2023-currently"
                 status
                 yearsOfExperience="know-more"
                 onClick={() =>
