@@ -10,9 +10,13 @@ import ProjectsWithVideos from "./components/ProjectsWithVideos";
 
 import SelectButton from "../../../shared/components/SelectButton";
 import TagSection from "../../../shared/components/TagSection";
+import { GreenButton } from "../../../shared/components/GreenButton";
 
 import designIcon from "../../../shared/assets/icons/design-icon.svg";
 import codeIcon from "../../../shared/assets/icons/code-icon.svg";
+import greenGithub from "../../../shared/assets/icons/green-github.svg";
+import greenFigma from "../../../shared/assets/icons/green-figma.svg";
+import greenBehance from "../../../shared/assets/icons/green-behance.svg";
 
 import { Container } from "./styles";
 
@@ -57,24 +61,35 @@ const Portfolio = () => {
       </div>
       <div className="see-more-projects">
         {category === "web" ? (
-          <a href="https://github.com/justhenrique" target="_blank">
-            <FormattedMessage id="see-more-projects-on-github" />
-            <ArrowRight size={24} color="rgba(123, 74, 226, 0.5)" />
-          </a>
+          <GreenButton
+            icon={greenGithub}
+            textId="see-more-projects-on-github"
+            onClick={() =>
+              window.open("https://github.com/justhenrique", "_blank")
+            }
+            arrow
+          />
         ) : (
-          <div>
-            <a
-              href="https://www.behance.net/justhenriquedesign"
-              target="_blank"
-            >
-              <FormattedMessage id="see-more-projects-on-behance" />
-              <ArrowRight size={24} color="rgba(123, 74, 226, 0.5)" />
-            </a>
-
-            <a href="https://www.figma.com/@henriquedesousa" target="_blank">
-              <FormattedMessage id="see-more-projects-on-figma" />
-              <ArrowRight size={24} color="rgba(123, 74, 226, 0.5)" />
-            </a>
+          <div className="buttons">
+            <GreenButton
+              icon={greenFigma}
+              textId="see-more-projects-on-figma"
+              onClick={() =>
+                window.open("https://www.figma.com/@henriquedesousa", "_blank")
+              }
+              arrow
+            />
+            <GreenButton
+              icon={greenBehance}
+              textId="see-more-projects-on-behance"
+              onClick={() =>
+                window.open(
+                  "https://www.behance.net/justhenriquedesign",
+                  "_blank"
+                )
+              }
+              arrow
+            />
           </div>
         )}
       </div>

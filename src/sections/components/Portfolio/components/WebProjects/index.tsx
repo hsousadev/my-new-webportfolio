@@ -6,24 +6,42 @@ const WebProjects = () => {
       <WorkCard
         title="Nanotícia"
         description="site-that-brings-together"
-        tags={["Online", "Beta", "NextJS", "React JS", "Typescript"]}
+        tags={["Online", "Beta", "Next.js", "React.js", "Typescript"]}
         bannerUrl="https://user-images.githubusercontent.com/54003876/234693350-e9c7e550-f78b-484e-b67e-b92b02ff5d85.png"
         redirectUrl="https://nanoticia.vercel.app/"
         online
         beta
       />
       <WorkCard
-        title="Adicionei"
-        description="contact-management-web-app"
-        tags={["NextJS", "React JS", "Typescript"]}
-        bannerUrl="https://user-images.githubusercontent.com/54003876/234316093-88e43f19-7a72-4300-b24f-924f1f299457.png"
-        redirectUrl="https://github.com/justhenrique/adicionei"
+        title="FinanceApp.js"
+        description="finance-releases-app"
+        tags={[
+          "Node.js",
+          "Prisma",
+          "Next.js",
+          "React.js",
+          "Typescript",
+        ]}
+        bannerUrl="https://s3-alpha.figma.com/hub/file/3650468509/38fd4283-8459-4fa9-8b5b-b057a26f9edc-cover.png"
+        redirectUrl="https://github.com/justhenrique/finapp-web-react"
+      />
+      <WorkCard
+        title="Ignite Lab Design System"
+        description="application-focused"
+        tags={[
+          "React JS",
+          "Typescript",
+          "Storybook",
+          "Design System",
+        ]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/236646671-8b2e4383-cd70-4a14-8fec-bfe114d68e55.png"
+        redirectUrl="https://github.com/justhenrique/ignite-lab-design-system"
       />
       <WorkCard
         title="Rick And Morty Wiki"
         description="all-about-characters-episodes-and-more"
-        tags={["Online", "NextJS", "React JS", "Typescript"]}
-        bannerUrl="https://user-images.githubusercontent.com/54003876/229385071-92694ca7-ca83-4c9a-b316-ef3a6b27640a.png"
+        tags={["Online", "Next.js", "React.js", "Typescript"]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/245583973-6981008c-0103-4e96-9f81-d02ca218ddb1.png"
         redirectUrl="https://rickandmortysite.vercel.app/"
         online
       />
@@ -34,6 +52,13 @@ const WebProjects = () => {
         bannerUrl="https://user-images.githubusercontent.com/54003876/108790703-226de300-755c-11eb-9590-f958ff60c91d.png"
         redirectUrl="https://moveit-beta-gold.vercel.app/"
         online
+      />
+      <WorkCard
+        title="Adicionei"
+        description="contact-management-web-app"
+        tags={["Next.js", "React.js", "Typescript"]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/234316093-88e43f19-7a72-4300-b24f-924f1f299457.png"
+        redirectUrl="https://github.com/justhenrique/adicionei"
       />
       <WorkCard
         title="OneCar"
@@ -62,6 +87,21 @@ const WebProjects = () => {
         tags={["React JS", "Typescript", "SCSS"]}
         bannerUrl="https://user-images.githubusercontent.com/54003876/126014850-8c0dc36e-8aeb-4d1a-84c0-9a1c1e20c128.png"
         redirectUrl="https://github.com/justhenrique/esports-nlw-rocketseat"
+      />
+      <WorkCard
+        title="Typext"
+        description="web-app-for-creating-and-managing-digital-minutes"
+        tags={["React JS", "Typescript", "Javascript", "Styled-components"]}
+        bannerUrl="https://user-images.githubusercontent.com/56441371/112768034-52dbed80-8ff0-11eb-8a72-5190c56f1090.png"
+        redirectUrl="https://github.com/justhenrique/typext-frontend"
+      />
+
+      <WorkCard
+        title="Proffy"
+        description="nlw-02-rocketseat"
+        tags={["Express", "Nunjucks", "JavaScript", "HTML", "CSS"]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/107502115-07bc6700-6b77-11eb-8e13-58c757a4ec94.png"
+        redirectUrl="https://github.com/justhenrique/proffy"
       />
     </>
   );

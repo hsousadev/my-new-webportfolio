@@ -53,34 +53,13 @@ export const Container = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 
-    div {
-      display: flex;
-      gap: 16px;
-    }
-
-    a {
-      :hover {
-        transition: all 0.4s ease-in-out;
-        opacity: 50%;
-      }
-
-      transition: all 0.4s ease-in-out;
-
-      text-decoration: none;
+    .buttons {
       display: flex;
       align-items: center;
-      justify-content: flex-start;
-      gap: 8px;
-      text-align: end;
-
-      margin: 0 0 0 0;
-      font-family: "Raleway";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      color: rgba(123, 74, 226, 0.5);
+      justify-content: center;
+      gap: 16px;
     }
   }
 
@@ -130,13 +109,7 @@ export const Container = styled.div`
     }
 
     .see-more-projects {
-      a {
-        font-size: 14px;
-        line-height: 16px;
-        justify-content: flex-end;
-      }
-
-      div {
+      .buttons {
         flex-direction: column;
       }
     }
