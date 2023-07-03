@@ -21,7 +21,7 @@
   "experiences": "Experiences",
   "freelance-designer-and": "Freelance designer and",
   "you-can-call-me-henrique-pleasure": "you can just call me Henrique. Pleasure!",
-  "for-over-2-years-developing": "+2 years developing and programming interfaces with JavaScript, ReactJS and Typescript.",
+  "for-over-3-years-developing": "+3 years developing and programming interfaces with JavaScript, ReactJS and Typescript.",
   "graduated-in-ads": "Graduated in Systems Analysis and Development from Fatec in São José dos Campos, SP.",
   "interests-in-front-end": "Interests in Front-end development with React JS, React Native, Vue JS and UX/UI Design.",
   "trying-to-be-a-little-better": "Trying to be a little better than yesterday every day.",
@@ -126,7 +126,7 @@
   "working-on-the-maintenance": "Working on the maintenance of several client applications in React JS.",
   "november-2022-december-2022": "November/2022 · December/2022",
   "all-about-characters-episodes-and-more": "A website with lots of information about the series: characters, episodes and more.",
-  "site-that-brings-together": "Brings together the main news portals in one place. World, sports, technologies, business and much more.",
+  "site-that-brings-together": "Brings together the main news portals in one place. World, sports, technologies and much more.",
   "contact-management-web-app": "Contact management web APP. (CRUD)",
   "ignite-rocketseat": "Ignite Rocketseat | ReactJS and NodeJS",
   "improving-myself-on-the-front-end": "Improving myself on the front-end and starting on the back-end. Design Systems, GraphQL. JAMStack, Suspense API, Streaming SSR, Docker, TypeORM, JWT and bcrypt are some of the main concepts that are covered and there's more! Click and see.",
@@ -136,5 +136,9 @@
   "may-2023-currently": "May/2023 · Currently",
   "finance-releases-app": "Finance releases app. Which brings together multiple bank accounts in one place.",
   "application-focused": "Application focused on using Design System with Storybook.",
-  "the-design-of-that-website-you-are-selling": "The Design of this site you are viewing :)"
+  "the-design-of-that-website-you-are-selling": "The Design of this site you are viewing :)",
+  "leadster-landing-page": "Video gallery page with filtering and modal",
+  "browser-radio-web": "Browser Radio web app consuming a public API with thousands of worldwide radio stations",
+  "site-to-find-countless": "Site to find countless works of art and the most diverse types of artists.",
+  "memories-time-capsule-app": "Time capsule app of memories held at the Nlw Spacetime event"
 }

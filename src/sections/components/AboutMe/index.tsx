@@ -21,7 +21,7 @@ const AboutMe = () => {
           👋 Hello world,{" "}
           <FormattedMessage id="you-can-call-me-henrique-pleasure" /> <br />
           <br />
-          👨‍💻 <FormattedMessage id="for-over-2-years-developing" /> <br />
+          👨‍💻 <FormattedMessage id="for-over-3-years-developing" /> <br />
           🎓 <FormattedMessage id="graduated-in-ads" /> <br />
           💡 <FormattedMessage id="interests-in-front-end" /> <br />
           <br />

@@ -15,25 +15,14 @@ const WebProjects = () => {
       <WorkCard
         title="FinanceApp.js"
         description="finance-releases-app"
-        tags={[
-          "Node.js",
-          "Prisma",
-          "Next.js",
-          "React.js",
-          "Typescript",
-        ]}
+        tags={["Node.js", "Prisma", "Next.js", "React.js", "Typescript"]}
         bannerUrl="https://s3-alpha.figma.com/hub/file/3650468509/38fd4283-8459-4fa9-8b5b-b057a26f9edc-cover.png"
         redirectUrl="https://github.com/justhenrique/finapp-web-react"
       />
       <WorkCard
         title="Ignite Lab Design System"
         description="application-focused"
-        tags={[
-          "React JS",
-          "Typescript",
-          "Storybook",
-          "Design System",
-        ]}
+        tags={["React JS", "Typescript", "Storybook", "Design System"]}
         bannerUrl="https://user-images.githubusercontent.com/54003876/236646671-8b2e4383-cd70-4a14-8fec-bfe114d68e55.png"
         redirectUrl="https://github.com/justhenrique/ignite-lab-design-system"
       />
@@ -43,6 +32,55 @@ const WebProjects = () => {
         tags={["Online", "Next.js", "React.js", "Typescript"]}
         bannerUrl="https://user-images.githubusercontent.com/54003876/245583973-6981008c-0103-4e96-9f81-d02ca218ddb1.png"
         redirectUrl="https://rickandmortysite.vercel.app/"
+        online
+      />
+      <WorkCard
+        title="Leadster | Landing Page"
+        description="leadster-landing-page"
+        tags={[
+          "Online",
+          "Next.js",
+          "React.js",
+          "Typescript",
+          "Styled-components",
+        ]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/248530834-11d0e8a8-4a6b-49d7-a26c-1f852be8a5f5.png"
+        redirectUrl="https://leadster-landing-page.vercel.app/"
+        online
+      />
+      <WorkCard
+        title="Spacetime"
+        description="memories-time-capsule-app"
+        tags={["Next.js", "React.js", "Typescript", "TailwindCss"]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/239767355-8dc91004-9c47-4186-981d-e4556e99f569.png"
+        redirectUrl="https://github.com/justhenrique/nlw-spacetime-web-react"
+      />
+      <WorkCard
+        title="Radio Web Browser"
+        description="browser-radio-web"
+        tags={[
+          "Online",
+          "Next.js",
+          "React.js",
+          "Typescript",
+          "Styled-components",
+        ]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/248300629-1fb0fc32-9ef0-4f88-bc72-0b1543781257.png"
+        redirectUrl="https://radio-browser-web.vercel.app/"
+        online
+      />
+      <WorkCard
+        title="Metropolitan Museum of Art"
+        description="site-to-find-countless"
+        tags={[
+          "Online",
+          "Next.js",
+          "React.js",
+          "Typescript",
+          "Styled-components",
+        ]}
+        bannerUrl="https://user-images.githubusercontent.com/54003876/247148740-874ef4ae-ea39-402b-bff8-0c863b96084a.png"
+        redirectUrl="https://metropolitan-museum-of-art-web.vercel.app/"
         online
       />
       <WorkCard

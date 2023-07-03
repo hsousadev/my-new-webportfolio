@@ -20,7 +20,7 @@
   "experiences": "Experiências",
   "freelance-designer-and": "Designer freelancer e",
   "you-can-call-me-henrique-pleasure": "pode me chamar apenas de Henrique. Prazer!",
-  "for-over-2-years-developing": "+ 2 anos desenvolvendo e programando interfaces com JavaScript, ReactJS e Typescript.",
+  "for-over-3-years-developing": "+3 anos desenvolvendo e programando interfaces com JavaScript, ReactJS e Typescript.",
   "graduated-in-ads": "Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos.",
   "interests-in-front-end": "Interesses em desenvolvimento Front-end com React JS, React Native, Vue JS e UX/UI Design.",
   "trying-to-be-a-little-better": "Tentando ser um pouquinho melhor do que ontem todos dias.",
@@ -136,5 +136,9 @@
   "may-2023-currently": "Maio/2023 · Atualmente",
   "finance-releases-app": "App de lançamentos de finanças. Que reúne várias contas bancárias em um só lugar.",
   "application-focused": "Aplicação focada para utilização de Design System com Storybook.",
-  "the-design-of-that-website-you-are-selling": "O Design desse site que está vendo :)"
+  "the-design-of-that-website-you-are-selling": "O Design desse site que está vendo :)",
+  "leadster-landing-page": "Página de galeria de vídeos com filtragem e modal",
+  "browser-radio-web": "Aplicação web de Rádio de navegador consumindo uma API pública com milhares de rádios do mundo radio",
+  "site-to-find-countless": "Site para encontrar inúmeras obras de arte e os mais diversos tipos de artistas.",
+  "memories-time-capsule-app": "App de cápsula do tempo de memórias realizado no evento Nlw Spacetime"
 }
