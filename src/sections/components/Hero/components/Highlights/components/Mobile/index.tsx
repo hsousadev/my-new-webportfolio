@@ -1,24 +1,24 @@
-import { FormattedMessage } from "react-intl";
-import { useContext } from "react";
 import { ArrowLineDown } from "phosphor-react";
+import { useContext } from "react";
+import { FormattedMessage } from "react-intl";
 
 import { Context } from "../../../../../../../App";
 
-import heroAvatar from "../../../../../../../shared/assets/illustrations/hero-avatar.svg";
-import Linkedin from "../../../../../../../shared/assets/icons/linkedin-white-circle.svg";
-import Github from "../../../../../../../shared/assets/icons/github-white-circle.svg";
 import Behance from "../../../../../../../shared/assets/icons/behance-white-circle.svg";
-import Figma from "../../../../../../../shared/assets/icons/figma-white-circle.svg";
 import brazilFlag from "../../../../../../../shared/assets/icons/brazil-flag.svg";
+import Figma from "../../../../../../../shared/assets/icons/figma-white-circle.svg";
+import Github from "../../../../../../../shared/assets/icons/github-white-circle.svg";
+import Linkedin from "../../../../../../../shared/assets/icons/linkedin-white-circle.svg";
 import usaFlag from "../../../../../../../shared/assets/icons/usa-flag.svg";
-import Resume from "../../../../../../../shared/docs/resume-henrique-jun-2023.pdf";
+import heroAvatar from "../../../../../../../shared/assets/illustrations/hero-avatar.svg";
+import Resume from "../../../../../../../shared/docs/curriculo-henrique-out-2023.pdf";
 
-import TagSection from "../../../../../../../shared/components/TagSection";
 import LetsTalkButton from "../../../../../../../shared/components/LetsTalkButton";
+import TagSection from "../../../../../../../shared/components/TagSection";
 
-import { Container } from "./styles";
-import smoothScroll from "../../../../../../../shared/utils/smoothScroll";
 import Pulse from "../../../../../../../shared/components/Pulse";
+import smoothScroll from "../../../../../../../shared/utils/smoothScroll";
+import { Container } from "./styles";
 
 const Mobile = () => {
   const { language, setLanguage } = useContext(Context);
