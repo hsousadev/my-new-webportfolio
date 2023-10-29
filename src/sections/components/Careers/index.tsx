@@ -39,26 +39,18 @@ const Careers = () => {
           </h3>
           <div className="content">
             <div className="cards">
-              <CardInfo
+            <CardInfo
                 id="status"
-                title="freelancer"
-                description="working-as-a-freelancer"
-                startAndEnd="may-2023-currently"
+                title="front-end-intrabank"
+                description="working-at-intrabank"
+                startAndEnd="jul-2023-actually"
                 status
               />
               <CardInfo
                 id="status"
-                title="ignite-rocketseat"
-                description="improving-myself-on-the-front-end"
-                startAndEnd="may-2023-currently"
-                status
-                yearsOfExperience="know-more"
-                onClick={() =>
-                  window.open(
-                    "https://www.rocketseat.com.br/ignite#trilhas",
-                    "_blank"
-                  )
-                }
+                title="freelancer"
+                description="working-as-a-freelancer"
+                startAndEnd="may-2023-jul-2023"
               />
               <CardInfo
                 title="front-end-developer-at-softexpert"

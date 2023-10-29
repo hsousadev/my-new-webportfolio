@@ -12,8 +12,8 @@
   "download": "Baixar",
   "lets-talk": "Vamos conversar!",
   "greetings": "👋 Saudações!",
-  "three-years-as-a": "3 anos como",
-  "4-years-as-a": "4 anos como",
+  "three-years-as-a": "3 anos atuando como",
+  "4-years-as-a": "4 anos atuando como",
   "developer": "Desenvolvedor",
   "work": "trabalhos",
   "dozens-of-projects-and": "Dezenas de projetos e",
@@ -133,12 +133,16 @@
   "know-more": "Saiba mais",
   "freelancer": "Desenvolvedor front-end e UI Designer Freelancer",
   "working-as-a-freelancer": "Atuando como desenvolvedor Front-end e UI Designer com React.js, Next.js, Node.js, Typescript, TailwindCss, Styled-componens, Vercel. Netfly, Vite, Figma e outras tecnologias",
-  "may-2023-currently": "Maio/2023 · Atualmente",
+  "may-2023-jul-2023": "Maio/2023 · Jul/2023",
   "finance-releases-app": "App de lançamentos de finanças. Que reúne várias contas bancárias em um só lugar.",
   "application-focused": "Aplicação focada para utilização de Design System com Storybook.",
   "the-design-of-that-website-you-are-selling": "O Design desse site que está vendo :)",
   "leadster-landing-page": "Página de galeria de vídeos com filtragem e modal",
   "browser-radio-web": "Aplicação web de Rádio de navegador consumindo uma API pública com milhares de rádios do mundo radio",
   "site-to-find-countless": "Site para encontrar inúmeras obras de arte e os mais diversos tipos de artistas.",
-  "memories-time-capsule-app": "App de cápsula do tempo de memórias realizado no evento Nlw Spacetime"
+  "memories-time-capsule-app": "App de cápsula do tempo de memórias realizado no evento Nlw Spacetime",
+  "front-end-intrabank": "Desenvolvedor front-end e UI Designer na Intrabank",
+  "jul-2023-actually": "Jul/2023 - Atualmente",
+  "working-at-intrabank": "Atuando como desenvolvedor Front-end e eventualmente como UI Designer. Utilizando tecnologias como React.js, Next.js, Typescript, TailwindCss, Styled-componens, Vercel, Vite, Figma e outras."
+
 }
