@@ -10,11 +10,17 @@ import Github from "../../../../../../../shared/assets/icons/github-white-circle
 import Linkedin from "../../../../../../../shared/assets/icons/linkedin-white-circle.svg";
 import heroAvatar from "../../../../../../../shared/assets/illustrations/hero-avatar.svg";
 
-import Resume from "../../../../../../../shared/docs/curriculo-henrique-sousa-mar-2024.pdf";
+import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-mar-2024.pdf";
+import ResumeEN from "../../../../../../../shared/docs/resume-henrique-sousa-mar-2024.pdf";
 
 import { Container } from "./styles";
+import { useContext } from "react";
+import { Context } from "../../../../../../../App";
 
 const Desktop = () => {
+  const { language } = useContext(Context);
+  const isLanguagePt = language === "pt";
+
   return (
     <Container>
       <div className="left">
@@ -58,8 +64,12 @@ const Desktop = () => {
 
       <div className="right">
         <a
-          href={Resume}
-          download="resume-henrique-mar-2024.pdf"
+          href={isLanguagePt ? ResumePT : ResumeEN}
+          download={
+            isLanguagePt
+              ? "curriculo-henrique-mar-2024.pdf"
+              : "resume-henrique-mar-2024.pdf"
+          }
           target="_blank"
         >
           <FormattedMessage id="download" /> CV

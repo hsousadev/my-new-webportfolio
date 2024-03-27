@@ -18,10 +18,15 @@ import TagSection from "../../../../../../../shared/components/TagSection";
 
 import Pulse from "../../../../../../../shared/components/Pulse";
 import smoothScroll from "../../../../../../../shared/utils/smoothScroll";
+
+import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-mar-2024.pdf";
+import ResumeEN from "../../../../../../../shared/docs/resume-henrique-sousa-mar-2024.pdf";
+
 import { Container } from "./styles";
 
 const Mobile = () => {
   const { language, setLanguage } = useContext(Context);
+  const isLanguagePt = language === "pt";
 
   return (
     <Container language={language}>
@@ -82,8 +87,12 @@ const Mobile = () => {
 
         <div className="buttons">
           <a
-            href={Resume}
-            download="resume-henrique-mar-2024.pdf"
+            href={isLanguagePt ? ResumePT : ResumeEN}
+            download={
+              isLanguagePt
+                ? "curriculo-henrique-mar-2024.pdf"
+                : "resume-henrique-mar-2024.pdf"
+            }
             target="_blank"
           >
             <FormattedMessage id="download" /> CV{" "}
