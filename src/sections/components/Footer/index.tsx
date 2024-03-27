@@ -8,15 +8,13 @@ import Linkedin from "../../../shared/assets/icons/linkedin-white-circle.svg";
 const Footer = () => {
   return (
     <Container>
-      <h1>Copyright © Henrique Sousa · 2023</h1>
+      <h1>Copyright © Henrique Sousa · 2024</h1>
 
       <div className="social-medias">
         <img
           src={Linkedin}
           alt=""
-          onClick={() =>
-            window.open("https://www.linkedin.com/in/hsousadev/")
-          }
+          onClick={() => window.open("https://www.linkedin.com/in/hsousadev/")}
         />
         <img
           src={Github}
@@ -31,9 +29,7 @@ const Footer = () => {
         <img
           src={Behance}
           alt=""
-          onClick={() =>
-            window.open("https://www.behance.net/hsousadev")
-          }
+          onClick={() => window.open("https://www.behance.net/hsousadev")}
         />
       </div>
     </Container>

@@ -20,11 +20,10 @@ const AboutMe = () => {
         <p>
           👋 Hello world,{" "}
           <FormattedMessage id="you-can-call-me-henrique-pleasure" /> <br />
-          <br />
           👨‍💻 <FormattedMessage id="for-over-3-years-developing" /> <br />
+          📐 <FormattedMessage id="for-over-3-years-developing-2" /> <br />
           🎓 <FormattedMessage id="graduated-in-ads" /> <br />
           💡 <FormattedMessage id="interests-in-front-end" /> <br />
-          <br />
           🚀 <FormattedMessage id="trying-to-be-a-little-better" />
         </p>
       </div>

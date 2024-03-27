@@ -11,7 +11,7 @@ import Github from "../../../../../../../shared/assets/icons/github-white-circle
 import Linkedin from "../../../../../../../shared/assets/icons/linkedin-white-circle.svg";
 import usaFlag from "../../../../../../../shared/assets/icons/usa-flag.svg";
 import heroAvatar from "../../../../../../../shared/assets/illustrations/hero-avatar.svg";
-import Resume from "../../../../../../../shared/docs/curriculo-henrique-out-2023.pdf";
+import Resume from "../../../../../../../shared/docs/curriculo-henrique-sousa-mar-2024.pdf";
 
 import LetsTalkButton from "../../../../../../../shared/components/LetsTalkButton";
 import TagSection from "../../../../../../../shared/components/TagSection";
@@ -83,7 +83,7 @@ const Mobile = () => {
         <div className="buttons">
           <a
             href={Resume}
-            download="resume-henrique-jun-2023.pdf"
+            download="resume-henrique-mar-2024.pdf"
             target="_blank"
           >
             <FormattedMessage id="download" /> CV{" "}

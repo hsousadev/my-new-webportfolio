@@ -20,9 +20,10 @@
   "experiences": "Experiências",
   "freelance-designer-and": "Designer freelancer e",
   "you-can-call-me-henrique-pleasure": "pode me chamar apenas de Henrique. Prazer!",
-  "for-over-3-years-developing": "+3 anos desenvolvendo e programando interfaces com JavaScript, ReactJS e Typescript.",
+  "for-over-3-years-developing": "+3 anos desenvolvendo aplicações com JavaScript, ReactJS, Typescript e outras tecnologias",
+  "for-over-3-years-developing-2": "Eventualmente atuando como UI Designer com Figma",
   "graduated-in-ads": "Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos.",
-  "interests-in-front-end": "Interesses em desenvolvimento Front-end com React JS, React Native, Vue JS e UX/UI Design.",
+  "interests-in-front-end": "Interesses em desenvolvimento Front-end com React JS, React Native UX/UI Design.",
   "trying-to-be-a-little-better": "Tentando ser um pouquinho melhor do que ontem todos dias.",
   "works": "Trabalhos",
   "and-projects": "e projetos",
@@ -144,5 +145,4 @@
   "front-end-intrabank": "Desenvolvedor front-end e UI Designer na Intrabank",
   "jul-2023-actually": "Jul/2023 - Atualmente",
   "working-at-intrabank": "Atuando como desenvolvedor Front-end e eventualmente como UI Designer. Utilizando tecnologias como React.js, Next.js, Typescript, TailwindCss, Styled-componens, Vercel, Vite, Figma e outras."
-
 }
