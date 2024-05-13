@@ -34,26 +34,22 @@ const Mobile = () => {
         <img
           src={Linkedin}
           alt=""
-          onClick={() =>
-            window.open("https://www.linkedin.com/in/justhenrique/")
-          }
+          onClick={() => window.open("https://www.linkedin.com/in/hsousadev/")}
         />
         <img
           src={Github}
           alt=""
-          onClick={() => window.open("https://github.com/justhenrique")}
+          onClick={() => window.open("https://github.com/hsousadev")}
         />
         <img
           src={Figma}
           alt=""
-          onClick={() => window.open("https://www.figma.com/@henriquedesousa")}
+          onClick={() => window.open("https://www.figma.com/@hsousadev")}
         />
         <img
           src={Behance}
           alt=""
-          onClick={() =>
-            window.open("https://www.behance.net/justhenriquedesign")
-          }
+          onClick={() => window.open("https://www.behance.net/hsousadev")}
         />
       </div>
       <div className="lang">

@@ -65,7 +65,7 @@ const Portfolio = () => {
             icon={greenGithub}
             textId="see-more-projects-on-github"
             onClick={() =>
-              window.open("https://github.com/justhenrique", "_blank")
+              window.open("https://github.com/hsousadev", "_blank")
             }
             arrow
           />
@@ -75,7 +75,7 @@ const Portfolio = () => {
               icon={greenFigma}
               textId="see-more-projects-on-figma"
               onClick={() =>
-                window.open("https://www.figma.com/@henriquedesousa", "_blank")
+                window.open("https://www.figma.com/@hsousadev", "_blank")
               }
               arrow
             />
@@ -83,10 +83,7 @@ const Portfolio = () => {
               icon={greenBehance}
               textId="see-more-projects-on-behance"
               onClick={() =>
-                window.open(
-                  "https://www.behance.net/justhenriquedesign",
-                  "_blank"
-                )
+                window.open("https://www.behance.net/hsousadev", "_blank")
               }
               arrow
             />
