@@ -61,6 +61,10 @@ export const Container = styled.div`
     align-items: center;
     justify-content: flex-start;
     gap: 64px;
+
+    .alice-carousel__stage-item {
+      width: 100% !important;
+    }
   }
 
   .alice-carousel__prev-btn,

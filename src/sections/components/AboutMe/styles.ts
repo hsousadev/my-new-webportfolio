@@ -9,6 +9,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  .profile-pic {
+    border-radius: 100%;
+  }
+
   .description {
     width: 926px;
 
@@ -55,10 +59,6 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    > img {
-      height: 200px;
-    }
 
     margin-bottom: 80px;
 
