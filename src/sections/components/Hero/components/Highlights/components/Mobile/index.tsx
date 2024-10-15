@@ -78,7 +78,7 @@ const Mobile = () => {
           <h1>
             Henrique <br /> Sousa
           </h1>
-          <h6>Front-end developer · UI designer</h6>
+          <h6> Front-end developer · UI designer</h6>
         </div>
 
         <div className="buttons">

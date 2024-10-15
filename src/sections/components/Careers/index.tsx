@@ -39,11 +39,23 @@ const Careers = () => {
           </h3>
           <div className="content">
             <div className="cards">
-            <CardInfo
+              <CardInfo
                 id="status"
                 title="front-end-intrabank"
                 description="working-at-intrabank"
                 startAndEnd="jul-2023-actually"
+                tags={[
+                  "React JS",
+                  "Typescript",
+                  "Javascript",
+                  "Styled-components",
+                  "Tailwind",
+                  "Vite",
+                  "Next JS",
+                  "Git",
+                  "Github",
+                  "Figma",
+                ]}
                 status
               />
               <CardInfo
@@ -51,11 +63,35 @@ const Careers = () => {
                 title="freelancer"
                 description="working-as-a-freelancer"
                 startAndEnd="may-2023-jul-2023"
+                tags={[
+                  "React JS",
+                  "Next JS",
+                  "Node JS",
+                  "Typescript",
+                  "Tailwind",
+                  "Styled-components",
+                  "Vercel",
+                  "Netfly",
+                  "Vite",
+                  "Git",
+                  "Github",
+                  "Figma",
+                ]}
               />
               <CardInfo
                 title="front-end-developer-at-softexpert"
                 description="working-in-the-application-workspace"
                 startAndEnd="december-2022-currently"
+                tags={[
+                  "React JS",
+                  "Javascript",
+                  "CSS",
+                  "JQuery",
+                  "Jest",
+                  "Storybook",
+                  "Git",
+                  "Github",
+                ]}
               />
               <CardInfo
                 title="front-end-developer-at-coderockr"
@@ -73,14 +109,14 @@ const Careers = () => {
                 startAndEnd="january-2021-april-2021"
               />
               <CardInfo
-                title="programming-instructor-at-superGeeks"
-                description="acting-as-a-programming"
-                startAndEnd="february-2019-january-2021"
-              />
-              <CardInfo
                 title="designer-editor-and-hardware-support-at-alorean"
                 description="freelance-design-services"
                 startAndEnd="january-2020-january-2021"
+              />
+              <CardInfo
+                title="programming-instructor-at-superGeeks"
+                description="acting-as-a-programming"
+                startAndEnd="february-2019-january-2021"
               />
               <CardInfo
                 title="young-apprentice"
@@ -100,6 +136,11 @@ const Careers = () => {
           </h3>
           <div className="content">
             <div className="cards">
+              <CardInfo
+                title="higher-degree-systems-analysis-and-development"
+                description="graduated-from-fatec"
+                startAndEnd="august-2019-august-2022"
+              />
               <CardInfo
                 title="higher-degree-systems-analysis-and-development"
                 description="graduated-from-fatec"

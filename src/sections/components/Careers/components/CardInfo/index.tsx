@@ -2,6 +2,7 @@ import { FormattedMessage } from "react-intl";
 import { Container } from "./styles";
 
 import Pulse from "../../../../../shared/components/Pulse";
+import Tag from "../../../../../shared/components/Tag";
 
 interface CardInfoProps {
   id?: string;
@@ -11,6 +12,7 @@ interface CardInfoProps {
   startAndEnd: string;
   status?: boolean;
   onClick?: () => void;
+  tags?: Array<string>;
 }
 
 const CardInfo = ({
@@ -21,6 +23,7 @@ const CardInfo = ({
   status,
   onClick,
   id,
+  tags,
 }: CardInfoProps) => {
   return (
     <Container id={id} onClick={onClick} status={status}>
@@ -31,6 +34,12 @@ const CardInfo = ({
         <p>
           <FormattedMessage id={description} />
         </p>
+      </div>
+
+      <div className="tags">
+        {tags?.map((tag, index) => (
+          <Tag online={status} key={index} text={tag} />
+        ))}
       </div>
 
       <div className="dates">

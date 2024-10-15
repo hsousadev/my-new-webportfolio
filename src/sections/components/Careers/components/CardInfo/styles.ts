@@ -12,7 +12,6 @@ export const Container = styled.div<ContainerProps>`
 
   padding: 30px;
   width: 520px;
-  height: 160px;
   border-radius: 16px;
   transition: all 0.6s ease-in-out;
 
@@ -60,6 +59,17 @@ export const Container = styled.div<ContainerProps>`
     }
   }
 
+  .tags {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-top: 4px;
+    margin-bottom: 64px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
   .dates {
     ${(props) =>
       props.status
@@ -80,9 +90,9 @@ export const Container = styled.div<ContainerProps>`
           `}
 
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-end;
 
     strong {
       margin: 0;
