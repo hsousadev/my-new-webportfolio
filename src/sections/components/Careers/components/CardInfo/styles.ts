@@ -130,7 +130,7 @@ export const Container = styled.div<ContainerProps>`
 
   @media (max-width: 768px) {
     width: 300px;
-    height: 200px;
+    height: 400px;
     padding: 16px;
 
     .title-and-description {
