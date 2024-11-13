@@ -11,16 +11,14 @@ import Github from "../../../../../../../shared/assets/icons/github-white-circle
 import Linkedin from "../../../../../../../shared/assets/icons/linkedin-white-circle.svg";
 import usaFlag from "../../../../../../../shared/assets/icons/usa-flag.svg";
 import heroAvatar from "../../../../../../../shared/assets/illustrations/hero-avatar.svg";
-import Resume from "../../../../../../../shared/docs/curriculo-henrique-sousa-mar-2024.pdf";
-
 import LetsTalkButton from "../../../../../../../shared/components/LetsTalkButton";
 import TagSection from "../../../../../../../shared/components/TagSection";
 
 import Pulse from "../../../../../../../shared/components/Pulse";
 import smoothScroll from "../../../../../../../shared/utils/smoothScroll";
 
-import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-mar-2024.pdf";
-import ResumeEN from "../../../../../../../shared/docs/resume-henrique-sousa-mar-2024.pdf";
+import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-nov-2024.pdf";
+import ResumeEN from "../../../../../../../shared/docs/resume-henrique-sousa-nov-2024.pdf";
 
 import { Container } from "./styles";
 
