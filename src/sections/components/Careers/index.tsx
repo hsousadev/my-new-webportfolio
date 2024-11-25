@@ -93,7 +93,8 @@ const Careers = () => {
                   "Gitlab",
                 ]}
               />
-              <CardInfo
+
+              {/* <CardInfo
                 title="front-end-developer-at-coderockr"
                 description="working-on-the-maintenance"
                 startAndEnd="november-2022-december-2022"
@@ -107,7 +108,8 @@ const Careers = () => {
                   "Gitlab",
                   "Github",
                 ]}
-              />
+              /> */}
+
               <CardInfo
                 title="front-end-developer-at-ensinio"
                 description="development-of-features"
