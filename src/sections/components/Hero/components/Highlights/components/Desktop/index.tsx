@@ -10,7 +10,7 @@ import Github from "../../../../../../../shared/assets/icons/github-white-circle
 import Linkedin from "../../../../../../../shared/assets/icons/linkedin-white-circle.svg";
 import heroAvatar from "../../../../../../../shared/assets/illustrations/hero-avatar.svg";
 
-import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-nov-2024.pdf";
+import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-nov-2024-sp.pdf";
 import ResumeEN from "../../../../../../../shared/docs/resume-henrique-sousa-nov-2024.pdf";
 
 import { Container } from "./styles";
@@ -67,7 +67,7 @@ const Desktop = () => {
           href={isLanguagePt ? ResumePT : ResumeEN}
           download={
             isLanguagePt
-              ? "curriculo-henrique-nov-2024.pdf"
+              ? "curriculo-henrique-nov-2024-sp.pdf"
               : "resume-henrique-nov-2024.pdf"
           }
           target="_blank"
