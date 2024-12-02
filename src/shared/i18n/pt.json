@@ -131,7 +131,6 @@
   "november-2022-december-2022": "Novembro/2022 · Dezembro/2022",
   "all-about-characters-episodes-and-more": "Um site com diversas informações sobre a série: personagens, episódios e mais.",
   "site-that-brings-together": "Reune os principais portais de notícias em um só lugar. Mundo, esportes, tecnologias, negócios e mundo mais. ",
-  "contact-management-web-app": "APP web de gerenciamento de contatos. (CRUD)",
   "ignite-rocketseat": "Ignite Rocketseat | ReactJS e NodeJS",
   "improving-myself-on-the-front-end": "Me aprimorando no Front-end iniciando no back-end. Design Systems, GraphQL. JAMStack, Suspense API, Streaming SSR, Docker, TypeORM, JWT e bcrypt são alguns dos principais conceitos que são abordados e tem mais! Clique e veja.",
   "know-more": "Saiba mais",
@@ -147,5 +146,6 @@
   "memories-time-capsule-app": "App de cápsula do tempo de memórias realizado no evento Nlw Spacetime",
   "front-end-intrabank": "Intrabank | Desenvolvedor Front-end e UI Designer",
   "jul-2023-actually": "Jul/2023 - Atualmente",
-  "working-at-intrabank": "Fundo de Investimento em Direitos Creditórios (FIDC) / Asset Management no qual atuo como desenvolvedor Front-end de sistemas e soluções internas nos setores de Comercial, Compliance e Crédito. Eventualmente desenvolvendo protótipos de design de telas (UI)"
+  "working-at-intrabank": "Fundo de Investimento em Direitos Creditórios (FIDC) / Asset Management no qual atuo como desenvolvedor Front-end de sistemas e soluções internas nos setores de Comercial, Compliance e Crédito. Eventualmente desenvolvendo protótipos de design de telas (UI)",
+  "simbook-description": "Aplicação Full-Stack de Gerenciamento de Livros com usuários de diferentes cargos."
 }

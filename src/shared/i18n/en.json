@@ -131,7 +131,6 @@
   "november-2022-december-2022": "November/2022 · December/2022",
   "all-about-characters-episodes-and-more": "A website with lots of information about the series: characters, episodes and more.",
   "site-that-brings-together": "Brings together the main news portals in one place. World, sports, technologies and much more.",
-  "contact-management-web-app": "Contact management web APP. (CRUD)",
   "ignite-rocketseat": "Ignite Rocketseat | ReactJS and NodeJS",
   "improving-myself-on-the-front-end": "Improving myself on the Front-endand starting on the back-end. Design Systems, GraphQL. JAMStack, Suspense API, Streaming SSR, Docker, TypeORM, JWT and bcrypt are some of the main concepts that are covered and there's more! Click and see.",
   "know-more": "Know more",
@@ -147,5 +146,6 @@
   "memories-time-capsule-app": "Time capsule app of memories held at the Nlw Spacetime event",
   "front-end-intrabank": "Intrabank | Front-end developer and UI designer",
   "jul-2023-actually": "Jul/2023 - Currently",
-  "working-at-intrabank": "Credit Rights Investment Fund (FIDC) / Asset Management in which I work as a  Front-end developer of internal systems and solutions in the Commercial, Compliance and Credit sectors. Occasionally developing screen design prototypes (UI)"
+  "working-at-intrabank": "Credit Rights Investment Fund (FIDC) / Asset Management in which I work as a  Front-end developer of internal systems and solutions in the Commercial, Compliance and Credit sectors. Occasionally developing screen design prototypes (UI)",
+  "simbook-description": "Full-Stack book management application with users of different roles."
 }
