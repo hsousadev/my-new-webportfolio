@@ -24,7 +24,7 @@ const WebProjects = () => {
           "Typescript",
           "Tailwind",
         ]}
-        bannerUrl="https://private-user-images.githubusercontent.com/54003876/391386098-42d791fd-4cf7-43a8-a4da-133e76e86af4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNzA3MjgsIm5iZiI6MTczMzE3MDQyOCwicGF0aCI6Ii81NDAwMzg3Ni8zOTEzODYwOTgtNDJkNzkxZmQtNGNmNy00M2E4LWE0ZGEtMTMzZTc2ZTg2YWY0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAyVDIwMTM0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU3OGNlMTQwODM1MjhmYzJjMjY0MjEwNTI1ZDJmMDliYjIwZGVlZTczMzg1ZDRjOWE1Yzk2YWJlYTAwODMzNzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.tIWb6L8PolyMd5WNlGC6Fy1Wzb7AneAMkBn16grMbiY"
+        bannerUrl="https://i.postimg.cc/ZqtCWTsm/simbook-cover.png"
         redirectUrl="https://github.com/hsousadev/simbook-web"
         online
         beta
