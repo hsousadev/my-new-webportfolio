@@ -17,8 +17,8 @@ import TagSection from "../../../../../../../shared/components/TagSection";
 import Pulse from "../../../../../../../shared/components/Pulse";
 import smoothScroll from "../../../../../../../shared/utils/smoothScroll";
 
-import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-nov-2024-sp.pdf";
-import ResumeEN from "../../../../../../../shared/docs/resume-henrique-sousa-nov-2024.pdf";
+import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-dez-2024-sp.pdf";
+import ResumeEN from "../../../../../../../shared/docs/resume-henrique-sousa-dez-2024.pdf";
 
 import { Container } from "./styles";
 
