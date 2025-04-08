@@ -8,7 +8,7 @@ const DesignProjects = () => {
         description="a-platform-for-production-control"
         tags={["Design", "Identidade Visual"]}
         bannerUrl="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/917280115177581.Y3JvcCwxMzgwLDEwODAsMjU2LDA.png"
-        redirectUrl="https://github.com/hsousadev/esports-nlw-rocketseat"
+        redirectUrl="https://www.behance.net/gallery/115177581/Biplan"
       />
       <WorkCard
         title="CarsOn | UI Design"

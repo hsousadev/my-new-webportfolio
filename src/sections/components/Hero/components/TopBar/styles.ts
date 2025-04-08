@@ -6,14 +6,13 @@ export const Container = styled.div`
   justify-content: center;
 
   padding-top: 40px;
-  width: 100%;
+  width: 100vw;
 
   background-color: var(--DARK);
   z-index: 10;
 
   position: absolute;
   top: 0;
-  filter: drop-shadow(0px 20px 100px #090e16);
 
   .content {
     display: flex;
