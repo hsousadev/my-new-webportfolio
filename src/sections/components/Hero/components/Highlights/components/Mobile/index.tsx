@@ -17,8 +17,8 @@ import TagSection from "../../../../../../../shared/components/TagSection";
 import Pulse from "../../../../../../../shared/components/Pulse";
 import smoothScroll from "../../../../../../../shared/utils/smoothScroll";
 
-import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-dez-2024-sp.pdf";
-import ResumeEN from "../../../../../../../shared/docs/resume-henrique-sousa-dez-2024.pdf";
+import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-jul-2025.pdf";
+import ResumeEN from "../../../../../../../shared/docs/resume-henrique-jul-2025.pdf";
 
 import { Container } from "./styles";
 
@@ -84,8 +84,8 @@ const Mobile = () => {
             href={isLanguagePt ? ResumePT : ResumeEN}
             download={
               isLanguagePt
-                ? "curriculo-henrique-mar-2024.pdf"
-                : "resume-henrique-mar-2024.pdf"
+                ? "curriculo-henrique-jul-2025.pdf"
+                : "resume-henrique-jul-2025.pdf"
             }
             target="_blank"
           >

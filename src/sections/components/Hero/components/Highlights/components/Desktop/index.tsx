@@ -10,8 +10,8 @@ import Github from "../../../../../../../shared/assets/icons/github-white-circle
 import Linkedin from "../../../../../../../shared/assets/icons/linkedin-white-circle.svg";
 import heroAvatar from "../../../../../../../shared/assets/illustrations/hero-avatar.svg";
 
-import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-sousa-dez-2024-sp.pdf";
-import ResumeEN from "../../../../../../../shared/docs/resume-henrique-sousa-dez-2024.pdf";
+import ResumePT from "../../../../../../../shared/docs/curriculo-henrique-jul-2025.pdf";
+import ResumeEN from "../../../../../../../shared/docs/resume-henrique-jul-2025.pdf";
 
 import { Container } from "./styles";
 import { useContext } from "react";
@@ -67,8 +67,8 @@ const Desktop = () => {
           href={isLanguagePt ? ResumePT : ResumeEN}
           download={
             isLanguagePt
-              ? "curriculo-henrique-dez-2024-sp.pdf"
-              : "resume-henrique-dez-2024.pdf"
+              ? "curriculo-henrique-jul-2025.pdf"
+              : "resume-henrique-jul-2025.pdf"
           }
           target="_blank"
         >

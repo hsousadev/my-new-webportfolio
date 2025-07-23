@@ -39,11 +39,29 @@ const Careers = () => {
           </h3>
           <div className="content">
             <div className="cards">
+            <CardInfo
+                title="better-tech-front-end-pleno"
+                description="better-tech-front-end-pleno-description"
+                startAndEnd="dez-2024-atual"
+                tags={[
+                  "n8n",
+                  "Cursor AI",
+                  "React JS",
+                  "Typescript",
+                  "Javascript",
+                  "Tailwind",
+                  "Next JS",
+                  "Git",
+                  "Github",
+                  "Figma",
+                ]}
+                status
+              />
               <CardInfo
                 id="status"
                 title="front-end-intrabank"
                 description="working-at-intrabank"
-                startAndEnd="jul-2023-actually"
+                startAndEnd="jul-2023-nov-2024"
                 tags={[
                   "React JS",
                   "Typescript",
@@ -56,7 +74,6 @@ const Careers = () => {
                   "Github",
                   "Figma",
                 ]}
-                status
               />
               <CardInfo
                 id="status"
@@ -169,6 +186,7 @@ const Careers = () => {
                 startAndEnd="october-2016-december-2017"
                 tags={["HMTL", "Corel Draw", "Adobe Photoshop", "Hardware"]}
               />
+             
             </div>
           </div>
         </div>
@@ -186,7 +204,6 @@ const Careers = () => {
                 title="mba-rocketseat"
                 description="mba-rocketseat-description"
                 startAndEnd="out-2024-out-2025"
-                status
               />
               <CardInfo
                 title="higher-degree-systems-analysis-and-development"

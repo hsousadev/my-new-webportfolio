@@ -1,7 +1,7 @@
 import { FormattedMessage } from "react-intl";
 
 import TagSection from "../../../shared/components/TagSection";
-import profilePic from "../../../shared/assets/illustrations/profile-pic-2024.jpg";
+import profilePic from "../../../shared/assets/illustrations/profile-pic-2025.webp";
 
 import useWindowSize from "../../../shared/hooks/useWindowSize";
 
@@ -29,13 +29,11 @@ const AboutMe = () => {
         </h1>
 
         <p>
-          👋 Hello world,{" "}
-          <FormattedMessage id="you-can-call-me-henrique-pleasure" /> <br />
-          👨‍💻 <FormattedMessage id="for-over-3-years-developing" /> <br />
-          📐 <FormattedMessage id="for-over-3-years-developing-2" /> <br />
-          🎓 <FormattedMessage id="graduated-in-ads" /> <br />
-          💡 <FormattedMessage id="interests-in-front-end" /> <br />
-          🚀 <FormattedMessage id="trying-to-be-a-little-better" />
+          <FormattedMessage id="about-me-intro" /> {" "}
+          <FormattedMessage id="about-me-expertise" /> {" "}
+          <FormattedMessage id="about-me-backend" /> <br /> <br />
+          <FormattedMessage id="about-me-interests" /> <br />
+          <FormattedMessage id="about-me-goal" />
         </p>
       </div>
     </Container>
